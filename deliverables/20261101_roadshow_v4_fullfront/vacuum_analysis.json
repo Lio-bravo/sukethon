@@ -1,0 +1,34 @@
+[
+  {
+    "run_directory": "/mnt/e/Project/sukethon/experiments/vacuum_engineering_v4_fullfront/sim/benchmark_results/20261101_131255",
+    "samples": 10542,
+    "min_held_capacity_n": 408.586375,
+    "max_held_capacity_n": 754.356202,
+    "max_normal_demand_n": 1846.661156,
+    "max_shear_demand_n": 85.371274,
+    "max_peel_moment_nm": 10.09348,
+    "max_tank_vacuum_pa": 65000.0,
+    "detach_reasons": [
+      "commanded_vent",
+      "none"
+    ],
+    "summary": [
+      {
+        "mode": "coarse",
+        "seed": 8675309,
+        "status": "complete",
+        "return_code": 0,
+        "elapsed_seconds": 192.52945714899397,
+        "placed": 8,
+        "passed": 8,
+        "max_center_mm": 8.816042958334975,
+        "max_yaw_deg": 0.0,
+        "regrasp_count": 0,
+        "failure": null,
+        "first_pass_failed": 0,
+        "video_return_code": 0,
+        "wall_seconds": 222.29
+      }
+    ]
+  }
+]

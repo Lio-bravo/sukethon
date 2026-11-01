@@ -1,0 +1,34 @@
+Gazebo multi-robot simulator, version 11.15.1
+Copyright (C) 2012 Open Source Robotics Foundation.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+[1;33m
+#     # ####### ####### ###  #####  #######
+##    # #     #    #     #  #     # #
+# #   # #     #    #     #  #       #
+#  #  # #     #    #     #  #       #####
+#   # # #     #    #     #  #       #
+#    ## #     #    #     #  #     # #
+#     # #######    #    ###  #####  #######
+
+This version of Gazebo, now called Gazebo classic, reaches end-of-life
+in January 2025. Users are highly encouraged to migrate to the new Gazebo
+using our migration guides (https://gazebosim.org/docs/latest/gazebo_classic_migration/)
+
+
+[0m[0m[INFO] [1793509976.363614449]: Finished loading Gazebo ROS API Plugin.[0m
+[0m[INFO] [1793509976.365126926]: waitForService: Service [/gazebo/set_physics_properties] has not been advertised, waiting...[0m
+[1;32m[Msg] [0m[1;32mWaiting for master.[0m[1;32m
+[0m[1;32m[0m[1;32m[Msg] [0m[1;32mConnected to gazebo master @ [0m[1;32mhttp://127.0.0.1:30036[0m[1;32m
+[0m[1;32m[0m[1;32m[Msg] [0m[1;32mPublicized address: [0m[1;32m10.255.255.254[0m[1;32m
+[0m[1;32m[0m[1;32m[Msg] [0m[1;32mLoading world file [[0m[1;32m/mnt/e/Project/sukethon/experiments/vacuum_engineering_v4_fullfront/sim/stacking.world[0m[1;32m][0m[1;32m
+[0m[1;32m[0m[0m[INFO] [1793509976.655422341]: waitForService: Service [/gazebo/set_physics_properties] is now available.[0m
+[0m[INFO] [1793509976.676866680]: Physics dynamic reconfigure ready.[0m
+[0m[INFO] [1793509978.604230352]: Camera Plugin: The 'robotNamespace' param did not exit[0m
+[0m[INFO] [1793509978.615885240]: Camera Plugin: The 'robotNamespace' param did not exit[0m
+[0m[INFO] [1793509978.620878149]: Camera Plugin (ns = )  <tf_prefix_>, set to ""[0m
+[0m[INFO] [1793509978.621022706]: Camera Plugin (ns = )  <tf_prefix_>, set to ""[0m
+[1;32m[Msg] [0m[1;32mVacuum contact sensor ready: [0m[1;32mvacuum_contact[0m[1;32m
+[0m[1;33m[Wrn] [Publisher.cc:135] [0m[1;33mQueue limit reached for topic [0m[1;33m/gazebo/stacking/pose/local/info[0m[1;33m, deleting message. [0m[1;33mThis warning is printed only once.[0m[1;33m
+[0m[1;33m[0m

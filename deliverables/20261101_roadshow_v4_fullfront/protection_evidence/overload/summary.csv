@@ -1,0 +1,2 @@
+elapsed_seconds,failure,first_pass_failed,max_center_mm,max_yaw_deg,mode,passed,placed,regrasp_count,return_code,seed,status,wall_seconds
+8.688464807986747,Load attachment lost during motion,0,,,coarse,0,0,0,2,8675309,stopped,30.19

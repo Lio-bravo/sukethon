@@ -1,0 +1,2483 @@
+{
+  "classification": "configured geometry and theoretical calculations, not physical accuracy or measured valid point counts",
+  "git_head": "d2363a4cc1e58720afb2bbdcb0b14a04b4ced446",
+  "world_sha256": "2cb2f8ab1940f21922959b88777c494aa783e76e02bc624783b5397c02ba65cc",
+  "experiment_present_on_disk": false,
+  "experiment_generator_matches_baseline_head": true,
+  "initial_sdf_bounds_m": {
+    "visual": {
+      "min": [
+        -3.0500000000000003,
+        -2.9000000000000004,
+        -2.9379276789143205e-13
+      ],
+      "max": [
+        3.0500000000000003,
+        2.9000000000000004,
+        6.91
+      ],
+      "size": [
+        6.1000000000000005,
+        5.800000000000001,
+        6.910000000000294
+      ]
+    },
+    "collision": {
+      "min": [
+        -0.12,
+        -0.1,
+        2.04
+      ],
+      "max": [
+        0.12,
+        0.1,
+        3.05
+      ],
+      "size": [
+        0.24,
+        0.2,
+        1.0099999999999998
+      ]
+    }
+  },
+  "initial_visual_link_bounds_m": {
+    "base": {
+      "min": [
+        -0.05,
+        -0.05,
+        2.95
+      ],
+      "max": [
+        0.05,
+        0.05,
+        3.05
+      ],
+      "size": [
+        0.1,
+        0.1,
+        0.09999999999999964
+      ]
+    },
+    "frame": {
+      "min": [
+        -3.0500000000000003,
+        -2.9000000000000004,
+        -2.9379276789143205e-13
+      ],
+      "max": [
+        3.0500000000000003,
+        2.9000000000000004,
+        5.42
+      ],
+      "size": [
+        6.1000000000000005,
+        5.800000000000001,
+        5.420000000000294
+      ]
+    },
+    "slide_x": {
+      "min": [
+        -0.48,
+        -2.56,
+        5.119999999999999
+      ],
+      "max": [
+        0.485,
+        2.45,
+        6.08
+      ],
+      "size": [
+        0.965,
+        5.01,
+        0.9600000000000009
+      ]
+    },
+    "slide_y": {
+      "min": [
+        -0.46,
+        -0.46,
+        4.710000000000001
+      ],
+      "max": [
+        0.46,
+        0.46,
+        5.680000000000001
+      ],
+      "size": [
+        0.92,
+        0.92,
+        0.9699999999999998
+      ]
+    },
+    "slide_z": {
+      "min": [
+        -0.006,
+        -0.006,
+        2.16
+      ],
+      "max": [
+        0.006,
+        0.006,
+        6.91
+      ],
+      "size": [
+        0.012,
+        0.012,
+        4.75
+      ]
+    },
+    "tool": {
+      "min": [
+        -0.152,
+        -0.1,
+        2.035
+      ],
+      "max": [
+        0.12,
+        0.1,
+        4.195556349186104
+      ],
+      "size": [
+        0.272,
+        0.2,
+        2.1605563491861037
+      ]
+    }
+  },
+  "primitives": [
+    {
+      "link": "base",
+      "name": "visual",
+      "kind": "visual",
+      "primitive": "box",
+      "min": [
+        -0.05,
+        -0.05,
+        2.95
+      ],
+      "max": [
+        0.05,
+        0.05,
+        3.05
+      ]
+    },
+    {
+      "link": "base",
+      "name": "collision",
+      "kind": "collision",
+      "primitive": "box",
+      "min": [
+        -0.05,
+        -0.05,
+        2.95
+      ],
+      "max": [
+        0.05,
+        0.05,
+        3.05
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "spider_frame_support_-2.35_-2.35",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        -2.439644615230602,
+        -2.457561858945868,
+        5.040020396270504
+      ],
+      "max": [
+        -1.3603553847693979,
+        -1.4924381410541323,
+        5.339979603729495
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "frame_collar_-2.35_-2.35",
+      "kind": "visual",
+      "primitive": "sphere",
+      "min": [
+        -2.59,
+        -2.59,
+        4.9399999999999995
+      ],
+      "max": [
+        -2.1100000000000003,
+        -2.1100000000000003,
+        5.42
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "hip_bracket_-2.35_-2.35",
+      "kind": "visual",
+      "primitive": "box",
+      "min": [
+        -1.6199999999999999,
+        -1.75,
+        5.08
+      ],
+      "max": [
+        -1.28,
+        -1.4500000000000002,
+        5.32
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "hip_collar_-2.35_-2.35",
+      "kind": "visual",
+      "primitive": "sphere",
+      "min": [
+        -1.63,
+        -1.78,
+        5.0200000000000005
+      ],
+      "max": [
+        -1.27,
+        -1.4200000000000002,
+        5.38
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "spider_upper_leg_-2.35_-2.35",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        -2.9473362499264186,
+        -2.8065793709104394,
+        3.5107447920477646
+      ],
+      "max": [
+        -1.3526637500735812,
+        -1.4934206290895613,
+        5.289255207952236
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "knee_-2.35_-2.35",
+      "kind": "visual",
+      "primitive": "sphere",
+      "min": [
+        -3.0500000000000003,
+        -2.9000000000000004,
+        3.4
+      ],
+      "max": [
+        -2.65,
+        -2.5,
+        3.8000000000000003
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "spider_lower_leg_-2.35_-2.35",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        -2.934040029206846,
+        -2.7845309765083366,
+        0.3044504822756491
+      ],
+      "max": [
+        -2.2659599707931544,
+        -2.265469023491664,
+        3.615549517724351
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "caster_fork_-2.35_-2.35",
+      "kind": "visual",
+      "primitive": "box",
+      "min": [
+        -2.5,
+        -2.46,
+        0.22499999999999998
+      ],
+      "max": [
+        -2.2,
+        -2.24,
+        0.375
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "wheel_axle_-2.35_-2.35",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        -2.4050000000000002,
+        -2.4050000000000002,
+        0.15999999999999998
+      ],
+      "max": [
+        -2.295,
+        -2.295,
+        0.3
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "wheel_collar_-2.35_-2.35",
+      "kind": "visual",
+      "primitive": "sphere",
+      "min": [
+        -2.47,
+        -2.47,
+        0.18
+      ],
+      "max": [
+        -2.23,
+        -2.23,
+        0.42
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "locked_wheel_-2.35_-2.35",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        -2.5100000000000002,
+        -2.4100000000007835,
+        -2.9379276789143205e-13
+      ],
+      "max": [
+        -2.19,
+        -2.2899999999992167,
+        0.3200000000002938
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "engaged_wheel_clamp_-2.35_-2.35",
+      "kind": "visual",
+      "primitive": "box",
+      "min": [
+        -2.47,
+        -2.43,
+        0.26
+      ],
+      "max": [
+        -2.23,
+        -2.27,
+        0.31999999999999995
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "locked_indicator_-2.35_-2.35",
+      "kind": "visual",
+      "primitive": "box",
+      "min": [
+        -2.39,
+        -2.39,
+        0.33999999999999997
+      ],
+      "max": [
+        -2.31,
+        -2.31,
+        0.38
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "brake_-2.35_-2.35",
+      "kind": "visual",
+      "primitive": "box",
+      "min": [
+        -2.27,
+        -2.4,
+        0.26
+      ],
+      "max": [
+        -2.0500000000000003,
+        -2.3000000000000003,
+        0.30000000000000004
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "spider_frame_support_-2.35_2.35",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        -2.439644615230602,
+        1.4924381410541323,
+        5.040020396270504
+      ],
+      "max": [
+        -1.3603553847693979,
+        2.457561858945868,
+        5.339979603729495
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "frame_collar_-2.35_2.35",
+      "kind": "visual",
+      "primitive": "sphere",
+      "min": [
+        -2.59,
+        2.1100000000000003,
+        4.9399999999999995
+      ],
+      "max": [
+        -2.1100000000000003,
+        2.59,
+        5.42
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "hip_bracket_-2.35_2.35",
+      "kind": "visual",
+      "primitive": "box",
+      "min": [
+        -1.6199999999999999,
+        1.4500000000000002,
+        5.08
+      ],
+      "max": [
+        -1.28,
+        1.75,
+        5.32
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "hip_collar_-2.35_2.35",
+      "kind": "visual",
+      "primitive": "sphere",
+      "min": [
+        -1.63,
+        1.4200000000000002,
+        5.0200000000000005
+      ],
+      "max": [
+        -1.27,
+        1.78,
+        5.38
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "spider_upper_leg_-2.35_2.35",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        -2.9473362499264186,
+        1.4934206290895613,
+        3.5107447920477646
+      ],
+      "max": [
+        -1.3526637500735812,
+        2.8065793709104394,
+        5.289255207952236
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "knee_-2.35_2.35",
+      "kind": "visual",
+      "primitive": "sphere",
+      "min": [
+        -3.0500000000000003,
+        2.5,
+        3.4
+      ],
+      "max": [
+        -2.65,
+        2.9000000000000004,
+        3.8000000000000003
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "spider_lower_leg_-2.35_2.35",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        -2.934040029206846,
+        2.265469023491664,
+        0.3044504822756491
+      ],
+      "max": [
+        -2.2659599707931544,
+        2.7845309765083366,
+        3.615549517724351
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "caster_fork_-2.35_2.35",
+      "kind": "visual",
+      "primitive": "box",
+      "min": [
+        -2.5,
+        2.24,
+        0.22499999999999998
+      ],
+      "max": [
+        -2.2,
+        2.46,
+        0.375
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "wheel_axle_-2.35_2.35",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        -2.4050000000000002,
+        2.295,
+        0.15999999999999998
+      ],
+      "max": [
+        -2.295,
+        2.4050000000000002,
+        0.3
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "wheel_collar_-2.35_2.35",
+      "kind": "visual",
+      "primitive": "sphere",
+      "min": [
+        -2.47,
+        2.23,
+        0.18
+      ],
+      "max": [
+        -2.23,
+        2.47,
+        0.42
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "locked_wheel_-2.35_2.35",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        -2.5100000000000002,
+        2.2899999999992167,
+        -2.9379276789143205e-13
+      ],
+      "max": [
+        -2.19,
+        2.4100000000007835,
+        0.3200000000002938
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "engaged_wheel_clamp_-2.35_2.35",
+      "kind": "visual",
+      "primitive": "box",
+      "min": [
+        -2.47,
+        2.27,
+        0.26
+      ],
+      "max": [
+        -2.23,
+        2.43,
+        0.31999999999999995
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "locked_indicator_-2.35_2.35",
+      "kind": "visual",
+      "primitive": "box",
+      "min": [
+        -2.39,
+        2.31,
+        0.33999999999999997
+      ],
+      "max": [
+        -2.31,
+        2.39,
+        0.38
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "brake_-2.35_2.35",
+      "kind": "visual",
+      "primitive": "box",
+      "min": [
+        -2.27,
+        2.3000000000000003,
+        0.26
+      ],
+      "max": [
+        -2.0500000000000003,
+        2.4,
+        0.30000000000000004
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "spider_frame_support_2.35_-2.35",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        1.3603553847693979,
+        -2.457561858945868,
+        5.040020396270504
+      ],
+      "max": [
+        2.439644615230602,
+        -1.4924381410541323,
+        5.339979603729495
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "frame_collar_2.35_-2.35",
+      "kind": "visual",
+      "primitive": "sphere",
+      "min": [
+        2.1100000000000003,
+        -2.59,
+        4.9399999999999995
+      ],
+      "max": [
+        2.59,
+        -2.1100000000000003,
+        5.42
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "hip_bracket_2.35_-2.35",
+      "kind": "visual",
+      "primitive": "box",
+      "min": [
+        1.28,
+        -1.75,
+        5.08
+      ],
+      "max": [
+        1.6199999999999999,
+        -1.4500000000000002,
+        5.32
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "hip_collar_2.35_-2.35",
+      "kind": "visual",
+      "primitive": "sphere",
+      "min": [
+        1.27,
+        -1.78,
+        5.0200000000000005
+      ],
+      "max": [
+        1.63,
+        -1.4200000000000002,
+        5.38
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "spider_upper_leg_2.35_-2.35",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        1.3526637500735812,
+        -2.8065793709104394,
+        3.5107447920477646
+      ],
+      "max": [
+        2.9473362499264186,
+        -1.4934206290895613,
+        5.289255207952236
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "knee_2.35_-2.35",
+      "kind": "visual",
+      "primitive": "sphere",
+      "min": [
+        2.65,
+        -2.9000000000000004,
+        3.4
+      ],
+      "max": [
+        3.0500000000000003,
+        -2.5,
+        3.8000000000000003
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "spider_lower_leg_2.35_-2.35",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        2.2659599707931544,
+        -2.7845309765083366,
+        0.3044504822756491
+      ],
+      "max": [
+        2.934040029206846,
+        -2.265469023491664,
+        3.615549517724351
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "caster_fork_2.35_-2.35",
+      "kind": "visual",
+      "primitive": "box",
+      "min": [
+        2.2,
+        -2.46,
+        0.22499999999999998
+      ],
+      "max": [
+        2.5,
+        -2.24,
+        0.375
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "wheel_axle_2.35_-2.35",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        2.295,
+        -2.4050000000000002,
+        0.15999999999999998
+      ],
+      "max": [
+        2.4050000000000002,
+        -2.295,
+        0.3
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "wheel_collar_2.35_-2.35",
+      "kind": "visual",
+      "primitive": "sphere",
+      "min": [
+        2.23,
+        -2.47,
+        0.18
+      ],
+      "max": [
+        2.47,
+        -2.23,
+        0.42
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "locked_wheel_2.35_-2.35",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        2.19,
+        -2.4100000000007835,
+        -2.9379276789143205e-13
+      ],
+      "max": [
+        2.5100000000000002,
+        -2.2899999999992167,
+        0.3200000000002938
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "engaged_wheel_clamp_2.35_-2.35",
+      "kind": "visual",
+      "primitive": "box",
+      "min": [
+        2.23,
+        -2.43,
+        0.26
+      ],
+      "max": [
+        2.47,
+        -2.27,
+        0.31999999999999995
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "locked_indicator_2.35_-2.35",
+      "kind": "visual",
+      "primitive": "box",
+      "min": [
+        2.31,
+        -2.39,
+        0.33999999999999997
+      ],
+      "max": [
+        2.39,
+        -2.31,
+        0.38
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "brake_2.35_-2.35",
+      "kind": "visual",
+      "primitive": "box",
+      "min": [
+        2.43,
+        -2.4,
+        0.26
+      ],
+      "max": [
+        2.65,
+        -2.3000000000000003,
+        0.30000000000000004
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "spider_frame_support_2.35_2.35",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        1.3603553847693979,
+        1.4924381410541323,
+        5.040020396270504
+      ],
+      "max": [
+        2.439644615230602,
+        2.457561858945868,
+        5.339979603729495
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "frame_collar_2.35_2.35",
+      "kind": "visual",
+      "primitive": "sphere",
+      "min": [
+        2.1100000000000003,
+        2.1100000000000003,
+        4.9399999999999995
+      ],
+      "max": [
+        2.59,
+        2.59,
+        5.42
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "hip_bracket_2.35_2.35",
+      "kind": "visual",
+      "primitive": "box",
+      "min": [
+        1.28,
+        1.4500000000000002,
+        5.08
+      ],
+      "max": [
+        1.6199999999999999,
+        1.75,
+        5.32
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "hip_collar_2.35_2.35",
+      "kind": "visual",
+      "primitive": "sphere",
+      "min": [
+        1.27,
+        1.4200000000000002,
+        5.0200000000000005
+      ],
+      "max": [
+        1.63,
+        1.78,
+        5.38
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "spider_upper_leg_2.35_2.35",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        1.3526637500735812,
+        1.4934206290895613,
+        3.5107447920477646
+      ],
+      "max": [
+        2.9473362499264186,
+        2.8065793709104394,
+        5.289255207952236
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "knee_2.35_2.35",
+      "kind": "visual",
+      "primitive": "sphere",
+      "min": [
+        2.65,
+        2.5,
+        3.4
+      ],
+      "max": [
+        3.0500000000000003,
+        2.9000000000000004,
+        3.8000000000000003
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "spider_lower_leg_2.35_2.35",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        2.2659599707931544,
+        2.265469023491664,
+        0.3044504822756491
+      ],
+      "max": [
+        2.934040029206846,
+        2.7845309765083366,
+        3.615549517724351
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "caster_fork_2.35_2.35",
+      "kind": "visual",
+      "primitive": "box",
+      "min": [
+        2.2,
+        2.24,
+        0.22499999999999998
+      ],
+      "max": [
+        2.5,
+        2.46,
+        0.375
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "wheel_axle_2.35_2.35",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        2.295,
+        2.295,
+        0.15999999999999998
+      ],
+      "max": [
+        2.4050000000000002,
+        2.4050000000000002,
+        0.3
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "wheel_collar_2.35_2.35",
+      "kind": "visual",
+      "primitive": "sphere",
+      "min": [
+        2.23,
+        2.23,
+        0.18
+      ],
+      "max": [
+        2.47,
+        2.47,
+        0.42
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "locked_wheel_2.35_2.35",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        2.19,
+        2.2899999999992167,
+        -2.9379276789143205e-13
+      ],
+      "max": [
+        2.5100000000000002,
+        2.4100000000007835,
+        0.3200000000002938
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "engaged_wheel_clamp_2.35_2.35",
+      "kind": "visual",
+      "primitive": "box",
+      "min": [
+        2.23,
+        2.27,
+        0.26
+      ],
+      "max": [
+        2.47,
+        2.43,
+        0.31999999999999995
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "locked_indicator_2.35_2.35",
+      "kind": "visual",
+      "primitive": "box",
+      "min": [
+        2.31,
+        2.31,
+        0.33999999999999997
+      ],
+      "max": [
+        2.39,
+        2.39,
+        0.38
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "brake_2.35_2.35",
+      "kind": "visual",
+      "primitive": "box",
+      "min": [
+        2.43,
+        2.3000000000000003,
+        0.26
+      ],
+      "max": [
+        2.65,
+        2.4,
+        0.30000000000000004
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "vacuum_reservoir",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        -2.5500000000000003,
+        -1.3,
+        1.05
+      ],
+      "max": [
+        -2.15,
+        -0.4000000000000001,
+        1.45
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "reservoir_end_-1.3",
+      "kind": "visual",
+      "primitive": "sphere",
+      "min": [
+        -2.5500000000000003,
+        -1.5,
+        1.05
+      ],
+      "max": [
+        -2.15,
+        -1.1,
+        1.45
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "reservoir_end_-0.4",
+      "kind": "visual",
+      "primitive": "sphere",
+      "min": [
+        -2.5500000000000003,
+        -0.6000000000000001,
+        1.05
+      ],
+      "max": [
+        -2.15,
+        -0.2,
+        1.45
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "vacuum_pump",
+      "kind": "visual",
+      "primitive": "box",
+      "min": [
+        -2.56,
+        -1.01,
+        0.66
+      ],
+      "max": [
+        -2.14,
+        -0.69,
+        0.9400000000000001
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "solenoid_manifold",
+      "kind": "visual",
+      "primitive": "box",
+      "min": [
+        -2.475,
+        -0.96,
+        1.55
+      ],
+      "max": [
+        -2.225,
+        -0.74,
+        1.6900000000000002
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "pressure_gauge",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        -2.44,
+        -1.0,
+        1.68
+      ],
+      "max": [
+        -2.2600000000000002,
+        -0.8999999999999999,
+        1.86
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "air_hose",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        -2.375,
+        -0.875,
+        1.6500000000000001
+      ],
+      "max": [
+        -2.325,
+        -0.825,
+        5.18
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "filter_bowl_0",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        -2.1750000000000003,
+        -0.755,
+        1.38
+      ],
+      "max": [
+        -2.065,
+        -0.6449999999999999,
+        1.58
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "filter_head_0",
+      "kind": "visual",
+      "primitive": "box",
+      "min": [
+        -2.19,
+        -0.77,
+        1.58
+      ],
+      "max": [
+        -2.0500000000000003,
+        -0.6299999999999999,
+        1.6400000000000001
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "regulator_knob_0",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        -2.1550000000000002,
+        -0.735,
+        1.64
+      ],
+      "max": [
+        -2.085,
+        -0.6649999999999999,
+        1.72
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "filter_feed_0",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        -2.3500000000000005,
+        -0.714,
+        1.606
+      ],
+      "max": [
+        -2.12,
+        -0.6859999999999999,
+        1.6340000000000001
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "filter_bowl_1",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        -2.1750000000000003,
+        -1.005,
+        1.38
+      ],
+      "max": [
+        -2.065,
+        -0.8949999999999999,
+        1.58
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "filter_head_1",
+      "kind": "visual",
+      "primitive": "box",
+      "min": [
+        -2.19,
+        -1.02,
+        1.58
+      ],
+      "max": [
+        -2.0500000000000003,
+        -0.8799999999999999,
+        1.6400000000000001
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "regulator_knob_1",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        -2.1550000000000002,
+        -0.985,
+        1.64
+      ],
+      "max": [
+        -2.085,
+        -0.9149999999999999,
+        1.72
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "filter_feed_1",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        -2.3500000000000005,
+        -0.964,
+        1.606
+      ],
+      "max": [
+        -2.12,
+        -0.9359999999999999,
+        1.6340000000000001
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "overhead_supply",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        -2.3850000000000002,
+        -2.35,
+        5.145
+      ],
+      "max": [
+        -2.315,
+        -0.8500000000000001,
+        5.215
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "overhead_supply_riser",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        -2.3850000000000002,
+        -2.3850000000000002,
+        5.18
+      ],
+      "max": [
+        -2.315,
+        -2.315,
+        5.35
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "rail_-2.35",
+      "kind": "visual",
+      "primitive": "box",
+      "min": [
+        -2.45,
+        -2.45,
+        5.069999999999999
+      ],
+      "max": [
+        2.45,
+        -2.25,
+        5.29
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "rail_2.35",
+      "kind": "visual",
+      "primitive": "box",
+      "min": [
+        -2.45,
+        2.25,
+        5.069999999999999
+      ],
+      "max": [
+        2.45,
+        2.45,
+        5.29
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "gantry_cross_feed",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        -2.35,
+        -2.3850000000000002,
+        5.3149999999999995
+      ],
+      "max": [
+        2.35,
+        -2.315,
+        5.385
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "gantry_feed_drop",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        -0.045000000000000116,
+        -2.395,
+        3.4800000000000004
+      ],
+      "max": [
+        0.045000000000000116,
+        -2.305,
+        5.35
+      ]
+    },
+    {
+      "link": "frame",
+      "name": "gantry_feed_joint",
+      "kind": "visual",
+      "primitive": "sphere",
+      "min": [
+        -0.085,
+        -2.435,
+        3.395
+      ],
+      "max": [
+        0.085,
+        -2.265,
+        3.565
+      ]
+    },
+    {
+      "link": "slide_x",
+      "name": "moving_bridge",
+      "kind": "visual",
+      "primitive": "box",
+      "min": [
+        -0.12,
+        -2.45,
+        5.21
+      ],
+      "max": [
+        0.12,
+        2.45,
+        5.489999999999999
+      ]
+    },
+    {
+      "link": "slide_x",
+      "name": "carriage_manifold",
+      "kind": "visual",
+      "primitive": "box",
+      "min": [
+        -0.17,
+        -2.56,
+        5.48
+      ],
+      "max": [
+        0.17,
+        -2.14,
+        5.68
+      ]
+    },
+    {
+      "link": "slide_x",
+      "name": "carriage_hose_fitting",
+      "kind": "visual",
+      "primitive": "sphere",
+      "min": [
+        -0.09,
+        -2.44,
+        5.49
+      ],
+      "max": [
+        0.09,
+        -2.2600000000000002,
+        5.67
+      ]
+    },
+    {
+      "link": "slide_x",
+      "name": "carriage_supply_run",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        -0.03500000000000007,
+        -2.35,
+        5.545
+      ],
+      "max": [
+        0.03500000000000007,
+        0.0,
+        5.615
+      ]
+    },
+    {
+      "link": "slide_x",
+      "name": "carriage_center_fitting",
+      "kind": "visual",
+      "primitive": "sphere",
+      "min": [
+        -0.075,
+        -0.075,
+        5.505
+      ],
+      "max": [
+        0.075,
+        0.075,
+        5.655
+      ]
+    },
+    {
+      "link": "slide_x",
+      "name": "spider_head",
+      "kind": "visual",
+      "primitive": "sphere",
+      "min": [
+        -0.48,
+        -0.48,
+        5.119999999999999
+      ],
+      "max": [
+        0.48,
+        0.48,
+        6.08
+      ]
+    },
+    {
+      "link": "slide_x",
+      "name": "visor_frame",
+      "kind": "visual",
+      "primitive": "box",
+      "min": [
+        0.3875,
+        -0.51,
+        5.609999999999999
+      ],
+      "max": [
+        0.46249999999999997,
+        0.51,
+        5.91
+      ]
+    },
+    {
+      "link": "slide_x",
+      "name": "visor_lens",
+      "kind": "visual",
+      "primitive": "box",
+      "min": [
+        0.45999999999999996,
+        -0.455,
+        5.665
+      ],
+      "max": [
+        0.478,
+        0.455,
+        5.8549999999999995
+      ]
+    },
+    {
+      "link": "slide_x",
+      "name": "visor_glint",
+      "kind": "visual",
+      "primitive": "box",
+      "min": [
+        0.477,
+        -0.34,
+        5.805999999999999
+      ],
+      "max": [
+        0.485,
+        0.34,
+        5.824
+      ]
+    },
+    {
+      "link": "slide_y",
+      "name": "spider_abdomen",
+      "kind": "visual",
+      "primitive": "sphere",
+      "min": [
+        -0.46,
+        -0.46,
+        4.760000000000001
+      ],
+      "max": [
+        0.46,
+        0.46,
+        5.680000000000001
+      ]
+    },
+    {
+      "link": "slide_y",
+      "name": "spinneret",
+      "kind": "visual",
+      "primitive": "box",
+      "min": [
+        -0.06,
+        -0.06,
+        4.710000000000001
+      ],
+      "max": [
+        0.06,
+        0.06,
+        4.890000000000001
+      ]
+    },
+    {
+      "link": "slide_z",
+      "name": "spider_silk",
+      "kind": "visual",
+      "primitive": "box",
+      "min": [
+        -0.006,
+        -0.006,
+        2.16
+      ],
+      "max": [
+        0.006,
+        0.006,
+        6.91
+      ]
+    },
+    {
+      "link": "tool",
+      "name": "visual",
+      "kind": "visual",
+      "primitive": "box",
+      "min": [
+        -0.12,
+        -0.1,
+        2.04
+      ],
+      "max": [
+        0.12,
+        0.1,
+        2.16
+      ]
+    },
+    {
+      "link": "tool",
+      "name": "cup_-0.075_-0.055",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        -0.109,
+        -0.089,
+        2.04
+      ],
+      "max": [
+        -0.040999999999999995,
+        -0.020999999999999998,
+        2.056
+      ]
+    },
+    {
+      "link": "tool",
+      "name": "cup_lip_-0.075_-0.055",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        -0.11299999999999999,
+        -0.093,
+        2.035
+      ],
+      "max": [
+        -0.037,
+        -0.017,
+        2.0410000000000004
+      ]
+    },
+    {
+      "link": "tool",
+      "name": "cup_-0.075_0.055",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        -0.109,
+        0.020999999999999998,
+        2.04
+      ],
+      "max": [
+        -0.040999999999999995,
+        0.089,
+        2.056
+      ]
+    },
+    {
+      "link": "tool",
+      "name": "cup_lip_-0.075_0.055",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        -0.11299999999999999,
+        0.017,
+        2.035
+      ],
+      "max": [
+        -0.037,
+        0.093,
+        2.0410000000000004
+      ]
+    },
+    {
+      "link": "tool",
+      "name": "cup_0.075_-0.055",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        0.040999999999999995,
+        -0.089,
+        2.04
+      ],
+      "max": [
+        0.109,
+        -0.020999999999999998,
+        2.056
+      ]
+    },
+    {
+      "link": "tool",
+      "name": "cup_lip_0.075_-0.055",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        0.037,
+        -0.093,
+        2.035
+      ],
+      "max": [
+        0.11299999999999999,
+        -0.017,
+        2.0410000000000004
+      ]
+    },
+    {
+      "link": "tool",
+      "name": "cup_0.075_0.055",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        0.040999999999999995,
+        0.020999999999999998,
+        2.04
+      ],
+      "max": [
+        0.109,
+        0.089,
+        2.056
+      ]
+    },
+    {
+      "link": "tool",
+      "name": "cup_lip_0.075_0.055",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        0.037,
+        0.017,
+        2.035
+      ],
+      "max": [
+        0.11299999999999999,
+        0.093,
+        2.0410000000000004
+      ]
+    },
+    {
+      "link": "tool",
+      "name": "vacuum_distribution_block",
+      "kind": "visual",
+      "primitive": "box",
+      "min": [
+        -0.065,
+        -0.055,
+        2.0595000000000003
+      ],
+      "max": [
+        0.065,
+        0.055,
+        2.1045000000000003
+      ]
+    },
+    {
+      "link": "tool",
+      "name": "push_in_fitting_0",
+      "kind": "visual",
+      "primitive": "sphere",
+      "min": [
+        -0.089,
+        -0.069,
+        2.0580000000000003
+      ],
+      "max": [
+        -0.061,
+        -0.041,
+        2.086
+      ]
+    },
+    {
+      "link": "tool",
+      "name": "cup_branch_0",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        -0.083,
+        -0.063,
+        2.053
+      ],
+      "max": [
+        -0.06699999999999999,
+        -0.047,
+        2.075
+      ]
+    },
+    {
+      "link": "tool",
+      "name": "branch_supply_0",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        -0.0785481819817651,
+        -0.059838429975134236,
+        2.1590000000000003
+      ],
+      "max": [
+        -0.0302018180182349,
+        -0.019911570024865766,
+        2.171
+      ]
+    },
+    {
+      "link": "tool",
+      "name": "branch_elbow_0",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        -0.081,
+        -0.061,
+        2.075
+      ],
+      "max": [
+        -0.06899999999999999,
+        -0.049,
+        2.165
+      ]
+    },
+    {
+      "link": "tool",
+      "name": "push_in_fitting_1",
+      "kind": "visual",
+      "primitive": "sphere",
+      "min": [
+        -0.089,
+        0.041,
+        2.0580000000000003
+      ],
+      "max": [
+        -0.061,
+        0.069,
+        2.086
+      ]
+    },
+    {
+      "link": "tool",
+      "name": "cup_branch_1",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        -0.083,
+        0.047,
+        2.053
+      ],
+      "max": [
+        -0.06699999999999999,
+        0.063,
+        2.075
+      ]
+    },
+    {
+      "link": "tool",
+      "name": "branch_supply_1",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        -0.0785481819817651,
+        0.019911570024865766,
+        2.1590000000000003
+      ],
+      "max": [
+        -0.0302018180182349,
+        0.059838429975134236,
+        2.171
+      ]
+    },
+    {
+      "link": "tool",
+      "name": "branch_elbow_1",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        -0.081,
+        0.049,
+        2.075
+      ],
+      "max": [
+        -0.06899999999999999,
+        0.061,
+        2.165
+      ]
+    },
+    {
+      "link": "tool",
+      "name": "push_in_fitting_2",
+      "kind": "visual",
+      "primitive": "sphere",
+      "min": [
+        0.061,
+        -0.069,
+        2.0580000000000003
+      ],
+      "max": [
+        0.089,
+        -0.041,
+        2.086
+      ]
+    },
+    {
+      "link": "tool",
+      "name": "cup_branch_2",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        0.06699999999999999,
+        -0.063,
+        2.053
+      ],
+      "max": [
+        0.083,
+        -0.047,
+        2.075
+      ]
+    },
+    {
+      "link": "tool",
+      "name": "branch_supply_2",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        0.030201818018234895,
+        -0.059838429975134236,
+        2.1590000000000003
+      ],
+      "max": [
+        0.07854818198176511,
+        -0.01991157002486577,
+        2.171
+      ]
+    },
+    {
+      "link": "tool",
+      "name": "branch_elbow_2",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        0.06899999999999999,
+        -0.061,
+        2.075
+      ],
+      "max": [
+        0.081,
+        -0.049,
+        2.165
+      ]
+    },
+    {
+      "link": "tool",
+      "name": "push_in_fitting_3",
+      "kind": "visual",
+      "primitive": "sphere",
+      "min": [
+        0.061,
+        0.041,
+        2.0580000000000003
+      ],
+      "max": [
+        0.089,
+        0.069,
+        2.086
+      ]
+    },
+    {
+      "link": "tool",
+      "name": "cup_branch_3",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        0.06699999999999999,
+        0.047,
+        2.053
+      ],
+      "max": [
+        0.083,
+        0.063,
+        2.075
+      ]
+    },
+    {
+      "link": "tool",
+      "name": "branch_supply_3",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        0.030201818018234895,
+        0.01991157002486577,
+        2.1590000000000003
+      ],
+      "max": [
+        0.07854818198176511,
+        0.059838429975134236,
+        2.171
+      ]
+    },
+    {
+      "link": "tool",
+      "name": "branch_elbow_3",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        0.06899999999999999,
+        0.049,
+        2.075
+      ],
+      "max": [
+        0.081,
+        0.061,
+        2.165
+      ]
+    },
+    {
+      "link": "tool",
+      "name": "tool_supply_stem",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        -0.018,
+        -0.018,
+        2.2
+      ],
+      "max": [
+        0.018,
+        0.018,
+        2.37
+      ]
+    },
+    {
+      "link": "tool",
+      "name": "tool_supply_elbow",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        -0.13,
+        -0.018000000000000006,
+        2.3520000000000003
+      ],
+      "max": [
+        0.0,
+        0.018000000000000006,
+        2.388
+      ]
+    },
+    {
+      "link": "tool",
+      "name": "tool_umbilical",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        -0.152,
+        -0.022,
+        2.37
+      ],
+      "max": [
+        -0.10800000000000001,
+        0.022,
+        4.05
+      ]
+    },
+    {
+      "link": "tool",
+      "name": "tool_umbilical_top",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        -0.14555634918610405,
+        -0.022,
+        4.0344436508138966
+      ],
+      "max": [
+        0.015556349186104046,
+        0.022,
+        4.195556349186104
+      ]
+    },
+    {
+      "link": "tool",
+      "name": "cup_branch_riser_0",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        -0.087,
+        -0.067,
+        2.075
+      ],
+      "max": [
+        -0.063,
+        -0.043,
+        2.09
+      ]
+    },
+    {
+      "link": "tool",
+      "name": "cup_branch_feed_0",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        -0.08091363663627517,
+        -0.06306404995855706,
+        2.0800000000000005
+      ],
+      "max": [
+        0.005913636636275171,
+        0.00806404995855706,
+        2.1
+      ]
+    },
+    {
+      "link": "tool",
+      "name": "cup_branch_riser_1",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        -0.087,
+        0.043,
+        2.075
+      ],
+      "max": [
+        -0.063,
+        0.067,
+        2.09
+      ]
+    },
+    {
+      "link": "tool",
+      "name": "cup_branch_feed_1",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        -0.08091363663627517,
+        -0.00806404995855706,
+        2.0800000000000005
+      ],
+      "max": [
+        0.005913636636275171,
+        0.06306404995855706,
+        2.1
+      ]
+    },
+    {
+      "link": "tool",
+      "name": "cup_branch_riser_2",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        0.063,
+        -0.067,
+        2.075
+      ],
+      "max": [
+        0.087,
+        -0.043,
+        2.09
+      ]
+    },
+    {
+      "link": "tool",
+      "name": "cup_branch_feed_2",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        -0.005913636636275171,
+        -0.06306404995855705,
+        2.0800000000000005
+      ],
+      "max": [
+        0.08091363663627517,
+        0.008064049958557053,
+        2.1
+      ]
+    },
+    {
+      "link": "tool",
+      "name": "cup_branch_riser_3",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        0.063,
+        0.043,
+        2.075
+      ],
+      "max": [
+        0.087,
+        0.067,
+        2.09
+      ]
+    },
+    {
+      "link": "tool",
+      "name": "cup_branch_feed_3",
+      "kind": "visual",
+      "primitive": "cylinder",
+      "min": [
+        -0.005913636636275171,
+        -0.008064049958557053,
+        2.0800000000000005
+      ],
+      "max": [
+        0.08091363663627517,
+        0.06306404995855705,
+        2.1
+      ]
+    },
+    {
+      "link": "tool",
+      "name": "collision",
+      "kind": "collision",
+      "primitive": "box",
+      "min": [
+        -0.12,
+        -0.1,
+        2.04
+      ],
+      "max": [
+        0.12,
+        0.1,
+        2.16
+      ]
+    }
+  ],
+  "cameras": [
+    {
+      "model": "camera",
+      "sensor": "overhead",
+      "type": "depth",
+      "model_pose": "0 0 4.8 0 1.57079632679 0",
+      "width": 960,
+      "height": 960,
+      "rate_hz": 10.0,
+      "hfov_rad": 1.2,
+      "vfov_rad": 1.2,
+      "focal_length_px_pinhole": 701.614054597489,
+      "principal_point_default_noetic": [
+        480.5,
+        480.5
+      ],
+      "plugin": {
+        "cameraName": "overhead",
+        "imageTopicName": "rgb/image_raw",
+        "depthImageTopicName": "depth/image_raw",
+        "cameraInfoTopicName": "rgb/camera_info",
+        "frameName": "overhead_optical",
+        "pointCloudCutoff": "0.1",
+        "pointCloudCutoffMax": "8"
+      },
+      "footprints": [
+        {
+          "distance_m": 1,
+          "width_m": 1.3682736166833847,
+          "height_m": 1.3682736166833847,
+          "area_m2": 1.8721726901118299,
+          "theoretical_samples_per_m2": 492262.2816087283,
+          "center_pitch_mm": 1.4252850173785256
+        },
+        {
+          "distance_m": 2,
+          "width_m": 2.7365472333667693,
+          "height_m": 2.7365472333667693,
+          "area_m2": 7.488690760447319,
+          "theoretical_samples_per_m2": 123065.57040218207,
+          "center_pitch_mm": 2.8505700347570513
+        },
+        {
+          "distance_m": 3,
+          "width_m": 4.104820850050154,
+          "height_m": 4.104820850050154,
+          "area_m2": 16.849554211006467,
+          "theoretical_samples_per_m2": 54695.80906763648,
+          "center_pitch_mm": 4.275855052135577
+        },
+        {
+          "distance_m": 4.1,
+          "width_m": 5.609921828401877,
+          "height_m": 5.609921828401877,
+          "area_m2": 31.471222920779855,
+          "theoretical_samples_per_m2": 29283.895396117096,
+          "center_pitch_mm": 5.843668571251955
+        },
+        {
+          "distance_m": 4.08,
+          "width_m": 5.58255635606821,
+          "height_m": 5.58255635606821,
+          "area_m2": 31.16493546867757,
+          "theoretical_samples_per_m2": 29571.6960789557,
+          "center_pitch_mm": 5.815162870904385
+        },
+        {
+          "distance_m": 3.8,
+          "width_m": 5.199439743396861,
+          "height_m": 5.199439743396861,
+          "area_m2": 27.034173645214818,
+          "theoretical_samples_per_m2": 34090.18570697565,
+          "center_pitch_mm": 5.416083066038397
+        },
+        {
+          "distance_m": 3.52,
+          "width_m": 4.816323130725514,
+          "height_m": 4.816323130725514,
+          "area_m2": 23.196968499561613,
+          "theoretical_samples_per_m2": 39729.32928789453,
+          "center_pitch_mm": 5.017003261172411
+        },
+        {
+          "distance_m": 3.85,
+          "width_m": 5.267853424231031,
+          "height_m": 5.267853424231031,
+          "area_m2": 27.750279699182602,
+          "theoretical_samples_per_m2": 33210.476074125705,
+          "center_pitch_mm": 5.487347316907324
+        },
+        {
+          "distance_m": 3.62,
+          "width_m": 4.953150492393853,
+          "height_m": 4.953150492393853,
+          "area_m2": 24.533699800301466,
+          "theoretical_samples_per_m2": 37564.65626878974,
+          "center_pitch_mm": 5.159531762910263
+        }
+      ]
+    },
+    {
+      "model": "main_view_camera",
+      "sensor": "main_view",
+      "type": "camera",
+      "model_pose": "5.8 -8.5 3.45 0 0.22 2.17",
+      "width": 960,
+      "height": 600,
+      "rate_hz": 15.0,
+      "hfov_rad": 1.05,
+      "vfov_rad": 0.6946721726626103,
+      "focal_length_px_pinhole": 828.7005486805668,
+      "principal_point_default_noetic": [
+        480.5,
+        300.5
+      ],
+      "plugin": {
+        "cameraName": "main_view",
+        "imageTopicName": "image_raw",
+        "cameraInfoTopicName": "camera_info",
+        "frameName": "main_view_optical"
+      },
+      "footprints": [
+        {
+          "distance_m": 1,
+          "width_m": 1.1584401645787303,
+          "height_m": 0.7240251028617064,
+          "area_m2": 0.8387397593182473,
+          "theoretical_samples_per_m2": 686744.5993834727,
+          "center_pitch_mm": 1.2067085047695107
+        },
+        {
+          "distance_m": 2,
+          "width_m": 2.3168803291574607,
+          "height_m": 1.4480502057234128,
+          "area_m2": 3.354959037272989,
+          "theoretical_samples_per_m2": 171686.14984586817,
+          "center_pitch_mm": 2.4134170095390215
+        },
+        {
+          "distance_m": 3,
+          "width_m": 3.475320493736191,
+          "height_m": 2.172075308585119,
+          "area_m2": 7.548657833864226,
+          "theoretical_samples_per_m2": 76304.95548705252,
+          "center_pitch_mm": 3.6201255143085325
+        },
+        {
+          "distance_m": 4.1,
+          "width_m": 4.749604674772794,
+          "height_m": 2.968502921732996,
+          "area_m2": 14.099215354139735,
+          "theoretical_samples_per_m2": 40853.33726255043,
+          "center_pitch_mm": 4.947504869554995
+        },
+        {
+          "distance_m": 4.08,
+          "width_m": 4.72643587148122,
+          "height_m": 2.9540224196757623,
+          "area_m2": 13.961997529515275,
+          "theoretical_samples_per_m2": 41254.8418506988,
+          "center_pitch_mm": 4.923370699459604
+        },
+        {
+          "distance_m": 3.8,
+          "width_m": 4.402072625399175,
+          "height_m": 2.751295390874484,
+          "area_m2": 12.11140212455549,
+          "theoretical_samples_per_m2": 47558.49026201334,
+          "center_pitch_mm": 4.585492318124141
+        },
+        {
+          "distance_m": 3.52,
+          "width_m": 4.077709379317131,
+          "height_m": 2.5485683620732065,
+          "area_m2": 10.392321113856813,
+          "theoretical_samples_per_m2": 55425.539077307636,
+          "center_pitch_mm": 4.247613936788678
+        },
+        {
+          "distance_m": 3.85,
+          "width_m": 4.459994633628112,
+          "height_m": 2.7874966460175696,
+          "area_m2": 12.432220082494721,
+          "theoretical_samples_per_m2": 46331.22613482696,
+          "center_pitch_mm": 4.6458277433626165
+        },
+        {
+          "distance_m": 3.62,
+          "width_m": 4.1935533957750035,
+          "height_m": 2.6209708723593774,
+          "area_m2": 10.991181302010041,
+          "theoretical_samples_per_m2": 52405.649963636075,
+          "center_pitch_mm": 4.368284787265629
+        }
+      ]
+    }
+  ],
+  "vacuum_experiment_committed_config": {
+    "model": "vacuum_engineering_v1",
+    "classification": "uncalibrated engineering equivalent, not a validated pneumatic digital twin",
+    "pressure_convention": "positive gauge vacuum: ambient absolute pressure minus chamber absolute pressure, Pa",
+    "ambient_pa": 101325,
+    "pump_vacuum_limit_pa": 65000,
+    "tank_volume_liters": 2.0,
+    "cup_chamber_liters_each": 0.025,
+    "pump_equivalent_conductance_liters_per_second": 5.0,
+    "branch_conductance_liters_per_second": 0.12,
+    "sealed_leak_conductance_liters_per_second": 0.00015,
+    "unsealed_extra_leak_conductance_liters_per_second": 0.45,
+    "vent_conductance_liters_per_second": 1.0,
+    "cup_radius_m": 0.034,
+    "cup_count": 4,
+    "effective_force_factor": 0.8,
+    "shear_friction_coefficient": 0.55,
+    "load_safety_factor": 1.3,
+    "peel_moment_capacity_formula": "sum(force_n) * 0.055 m * 0.5",
+    "trip_persistence_seconds": 0.04,
+    "ready_pressure_pa": 35000,
+    "ready_min_cups": 3,
+    "ready_min_total_force_n": 180,
+    "release_pressure_pa": 3000,
+    "max_seal_gap_m": 0.018,
+    "max_seal_tilt_rad": 0.12,
+    "seal_geometry_note": "Per-cup coverage interpolated over box top edge distance 20 to 34 mm; axial tolerance accounts for preexisting tool collision geometry. Cups remain visual geometry, tool collision supplies contact evidence.",
+    "load_measurement": "box mass * (filtered measured acceleration - gravity); lateral load and CoG moment resolved into tool frame; no joint-wrench reaction measurement",
+    "fault_tests": {
+      "leak": "extra 0.5 L/s per cup after 2 s attached",
+      "overload": "inject 1000 N extra normal demand after 2 s attached; software trip test, not physical added payload"
+    },
+    "limitations": [
+      "Fixed attachment constraint still used while capacity checks pass",
+      "No flexible cup deformation, hose CFD, pump curve calibration or carton porosity validation",
+      "Pressure dynamics are lumped linear conductance approximations",
+      "Load estimates include gravity even when the box is supported by a surface",
+      "All pneumatic constants and protection thresholds require hardware calibration",
+      "Existing parameter_report.json was copied from baseline and is historical; this file describes new vacuum behavior"
+    ]
+  }
+}

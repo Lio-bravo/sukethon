@@ -1,0 +1,60 @@
+{
+  "status": "stopped",
+  "reason": "Load attachment lost during motion",
+  "completed_boxes": 0,
+  "events": [
+    {
+      "state": "observe",
+      "box": null,
+      "elapsed_seconds": 9.829964255914092e-07
+    },
+    {
+      "state": "grasp",
+      "box": "observed-0",
+      "elapsed_seconds": 0.04700718299136497
+    },
+    {
+      "state": "lift",
+      "box": "observed-0",
+      "elapsed_seconds": 6.620240641001146
+    },
+    {
+      "state": "transfer",
+      "box": "observed-0",
+      "elapsed_seconds": 7.755871761997696
+    },
+    {
+      "state": "place",
+      "box": "observed-0",
+      "elapsed_seconds": 15.24378574299044
+    },
+    {
+      "state": "stopped",
+      "reason": "Load attachment lost during motion"
+    }
+  ],
+  "reserved_slots": 1,
+  "uncertain_slots": 0,
+  "visual_corrections": [],
+  "box_records": [],
+  "scene_seed": 8675309,
+  "routes": [
+    {
+      "box": "observed-0",
+      "tool_height": 1.3549998283386229,
+      "bottom_height": 1.0149998283386228
+    }
+  ],
+  "pick_timings": [
+    {
+      "box": "observed-0",
+      "attached_at": 82966.03836261,
+      "up_command_delay_ms": 0.043226013076491654,
+      "up_motion_delay_ms": 16.963560003205203
+    }
+  ],
+  "wheels_locked": true,
+  "elapsed_seconds": 16.544279011999606,
+  "placement_mode": "coarse",
+  "regrasp_count": 0
+}

@@ -1,0 +1,205 @@
+{
+  "run_id": "20261101_131255",
+  "source_commit": "63cf5135a2d7f7d46f5704178c246d39a002a1d9",
+  "normal_summary": {
+    "mode": "coarse",
+    "seed": 8675309,
+    "status": "complete",
+    "return_code": 0,
+    "elapsed_seconds": 192.52945714899397,
+    "placed": 8,
+    "passed": 8,
+    "max_center_mm": 8.816042958334975,
+    "max_yaw_deg": 0.0,
+    "regrasp_count": 0,
+    "failure": null,
+    "first_pass_failed": 0,
+    "video_return_code": 0,
+    "wall_seconds": 222.29
+  },
+  "video": {
+    "path": "demo_v4_raw.mp4",
+    "fps": 10.0,
+    "frame_count": 2117,
+    "decoded_frames": 2117,
+    "width": 3086,
+    "height": 960,
+    "duration_seconds": 211.7,
+    "sha256": "1f44bbbca329dd9aec0818eac4d22d5b46fd5bc631666c06cf5088dc946c1af9",
+    "speed": "1x original recorder wall clock",
+    "run_association": "E:\\Project\\sukethon\\experiments\\vacuum_engineering_v4_fullfront\\sim\\benchmark_results\\20261101_131255\\coarse_8675309_video.log"
+  },
+  "model_sha256": "fe49e294ced9d610dad53f3919fa508d5fa12ac4eb24d283007a8d8f868275ec",
+  "world_sha256": "341d8d4f3f252840531958c942296f72b7df11cab9a30a5481dfb75f9f74df63",
+  "generator_sha256": "6e17a3cc895d8a531e37812a5f873fd44c0cc33608520664303ccd1d7b0d668e",
+  "parameters_sha256": "87d1a9fee8fc466fb6c5630b8fd4a8ae06ea9fee92c83611738e648008dc7261",
+  "hero_crop_pixels": [
+    0,
+    0,
+    1536,
+    960
+  ],
+  "limitations": [
+    "Rigid fixed constraint attachment with vacuum capacity gating; no soft-body/full pneumatic model",
+    "Overload is +1000N software demand injection, not physical added mass",
+    "No controlled safe landing",
+    "Camera framing changed only; configuration is not hardware measured"
+  ],
+  "camera_framing": {
+    "eye": [
+      17.0,
+      -6.0,
+      9.0
+    ],
+    "target": [
+      0.0,
+      0.0,
+      3.1
+    ],
+    "pitch": 0.3162864788267089,
+    "yaw": 2.8023000391357487,
+    "resolution": [
+      1536,
+      960
+    ],
+    "hfov_rad": 1.05,
+    "conservative_bounds": [
+      [
+        -3.2,
+        -3.05,
+        0
+      ],
+      [
+        3.2,
+        3.05,
+        7.1
+      ]
+    ],
+    "projected_margin_fractions_left_right_top_bottom": [
+      0.32666721759865885,
+      0.28496708468280507,
+      0.17606761081590458,
+      0.13965364813614445
+    ],
+    "passes_8_percent": true
+  },
+  "main_camera_configuration": {
+    "position_m": [
+      17,
+      -6,
+      9
+    ],
+    "resolution": [
+      1536,
+      960
+    ],
+    "fps": 15,
+    "hfov_rad": 1.05,
+    "target_m": [
+      0,
+      0,
+      3.1
+    ],
+    "camera_only_change": true
+  },
+  "protection_provenance": {
+    "source_delivery": "20261101_roadshow_v3_synced",
+    "source_fault_runs": [
+      "20261101_130208",
+      "20261101_130246"
+    ],
+    "reused_same_physics": true,
+    "model_sha256_equal": true,
+    "plugin_sha256_equal": true
+  },
+  "render_verification": {
+    "renderer": "Microsoft PowerPoint COM",
+    "slides_rendered": 5,
+    "resolution": [
+      1600,
+      900
+    ],
+    "pdf_present": true,
+    "slide_bounds": "pass"
+  },
+  "fullfront_audit": {
+    "decoded_frames": 2117,
+    "purple_component_margins_left_right_top_bottom": [
+      0.34375,
+      0.3125,
+      0.26666666666666666,
+      0.18333333333333335
+    ],
+    "all_frames_pass_8_percent": true,
+    "complete_geometry_proof": {
+      "eye": [
+        17.0,
+        -6.0,
+        9.0
+      ],
+      "target": [
+        0.0,
+        0.0,
+        3.1
+      ],
+      "pitch": 0.3162864788267089,
+      "yaw": 2.8023000391357487,
+      "resolution": [
+        1536,
+        960
+      ],
+      "hfov_rad": 1.05,
+      "conservative_bounds": [
+        [
+          -3.2,
+          -3.05,
+          0
+        ],
+        [
+          3.2,
+          3.05,
+          7.1
+        ]
+      ],
+      "projected_margin_fractions_left_right_top_bottom": [
+        0.32666721759865885,
+        0.28496708468280507,
+        0.17606761081590458,
+        0.13965364813614445
+      ],
+      "passes_8_percent": true
+    },
+    "note": "Pixel mask is supplemental. Complete initial/runtime geometry bounded by conservative projected AABB; opaque supports may naturally occlude surfaces."
+  },
+  "physics_protection_provenance": [
+    {
+      "fault": "leak",
+      "protection_pass": true,
+      "run_id": "20261101_130208",
+      "reason": "leak_capacity_loss",
+      "status": "stopped",
+      "same_model_sha256": "fe49e294ced9d610dad53f3919fa508d5fa12ac4eb24d283007a8d8f868275ec"
+    },
+    {
+      "fault": "overload",
+      "protection_pass": true,
+      "run_id": "20261101_130246",
+      "reason": "load_capacity_exceeded",
+      "status": "stopped",
+      "same_model_sha256": "fe49e294ced9d610dad53f3919fa508d5fa12ac4eb24d283007a8d8f868275ec"
+    }
+  ],
+  "non_camera_scene_source_identical_to_v3": true,
+  "fullfront_verification_status": {
+    "actual_preview_before_recording": true,
+    "raw_main_viewport_retained": [
+      0,
+      0,
+      1536,
+      960
+    ],
+    "geometry_margin_pass": true,
+    "video_all_frame_pixel_audit_pass": true,
+    "whole_geometry_proof": "Conservative projected bounding volume including all supports, wheels, and initial 7.1 m height; fixed camera throughout run"
+  }
+}

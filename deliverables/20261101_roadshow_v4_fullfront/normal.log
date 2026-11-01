@@ -1,0 +1,691 @@
+Released visual verification {'box': 'observed-0', 'stage': 'released', 'attempt': 0, 'error_m': 0.006913428807756456, 'yaw_rad': 0.0, 'measured': {'x': 0.6850570308590027, 'y': 1.0451857388579568, 'z': 0.860430631637573, 'yaw': 0.0}, 'target': {'x': 0.69, 'y': 1.05, 'z': 0.86, 'yaw': 0.0}}
+Released visual verification {'box': 'observed-1', 'stage': 'released', 'attempt': 0, 'error_m': 0.008816042958334975, 'yaw_rad': 0.0, 'measured': {'x': 1.3025486920274225, 'y': 1.0452885879927147, 'z': 0.8600567436218262, 'yaw': 0.0}, 'target': {'x': 1.31, 'y': 1.05, 'z': 0.86, 'yaw': 0.0}}
+Released visual verification {'box': 'observed-2', 'stage': 'released', 'attempt': 0, 'error_m': 0.002758980149292382, 'yaw_rad': 0.0, 'measured': {'x': 0.692363891003751, 'y': 1.0485800957955358, 'z': 1.1399113273620602, 'yaw': 0.0}, 'target': {'x': 0.69, 'y': 1.05, 'z': 1.1400000000000001, 'yaw': 0.0}}
+Released visual verification {'box': 'observed-3', 'stage': 'released', 'attempt': 0, 'error_m': 0.005674593881914139, 'yaw_rad': 0.0, 'measured': {'x': 1.3045005341164955, 'y': 1.0486177370397982, 'z': 1.1397849655151364, 'yaw': 0.0}, 'target': {'x': 1.31, 'y': 1.05, 'z': 1.1400000000000001, 'yaw': 0.0}}
+Released visual verification {'box': 'observed-4', 'stage': 'released', 'attempt': 0, 'error_m': 0.005316173864813961, 'yaw_rad': 0.0, 'measured': {'x': 0.7874366123492669, 'y': -1.0453426805054726, 'z': 0.8349888896942137, 'yaw': 0.0}, 'target': {'x': 0.79, 'y': -1.05, 'z': 0.835, 'yaw': 0.0}}
+Released visual verification {'box': 'observed-5', 'stage': 'released', 'attempt': 0, 'error_m': 0.0008230103840688974, 'yaw_rad': 0.0, 'measured': {'x': 1.2099536844345031, 'y': -1.0508214538286047, 'z': 0.8350203609466551, 'yaw': 0.0}, 'target': {'x': 1.21, 'y': -1.05, 'z': 0.835, 'yaw': 0.0}}
+Released visual verification {'box': 'observed-6', 'stage': 'released', 'attempt': 0, 'error_m': 0.000595163950958815, 'yaw_rad': 0.0, 'measured': {'x': 0.78940615112178, 'y': -1.0499617761652433, 'z': 1.06501012802124, 'yaw': 0.0}, 'target': {'x': 0.79, 'y': -1.05, 'z': 1.065, 'yaw': 0.0}}
+Released visual verification {'box': 'observed-7', 'stage': 'released', 'attempt': 0, 'error_m': 0.0037388282342286166, 'yaw_rad': 0.0, 'measured': {'x': 1.2073290425712477, 'y': -1.047383742059672, 'z': 1.0650041675567625, 'yaw': 0.0}, 'target': {'x': 1.21, 'y': -1.05, 'z': 1.065, 'yaw': 0.0}}
+{
+  "status": "complete",
+  "reason": null,
+  "completed_boxes": 8,
+  "events": [
+    {
+      "state": "observe",
+      "box": null,
+      "elapsed_seconds": 9.217008482664824e-06
+    },
+    {
+      "state": "grasp",
+      "box": "observed-0",
+      "elapsed_seconds": 0.06345486600184813
+    },
+    {
+      "state": "lift",
+      "box": "observed-0",
+      "elapsed_seconds": 6.660465855005896
+    },
+    {
+      "state": "transfer",
+      "box": "observed-0",
+      "elapsed_seconds": 7.800538134004455
+    },
+    {
+      "state": "place",
+      "box": "observed-0",
+      "elapsed_seconds": 15.269825697003398
+    },
+    {
+      "state": "verify",
+      "box": "observed-0",
+      "elapsed_seconds": 27.572513606006396
+    },
+    {
+      "state": "confirmed",
+      "box": "observed-0",
+      "elapsed_seconds": 27.995225377002498
+    },
+    {
+      "state": "observe",
+      "box": null,
+      "elapsed_seconds": 27.99522755399812
+    },
+    {
+      "state": "grasp",
+      "box": "observed-1",
+      "elapsed_seconds": 28.069108928000787
+    },
+    {
+      "state": "lift",
+      "box": "observed-1",
+      "elapsed_seconds": 34.342175249999855
+    },
+    {
+      "state": "transfer",
+      "box": "observed-1",
+      "elapsed_seconds": 35.461750838003354
+    },
+    {
+      "state": "place",
+      "box": "observed-1",
+      "elapsed_seconds": 42.747433224009
+    },
+    {
+      "state": "verify",
+      "box": "observed-1",
+      "elapsed_seconds": 58.872171601004084
+    },
+    {
+      "state": "confirmed",
+      "box": "observed-1",
+      "elapsed_seconds": 59.21354277600767
+    },
+    {
+      "state": "observe",
+      "box": null,
+      "elapsed_seconds": 59.213544694008306
+    },
+    {
+      "state": "grasp",
+      "box": "observed-2",
+      "elapsed_seconds": 59.34164018300362
+    },
+    {
+      "state": "lift",
+      "box": "observed-2",
+      "elapsed_seconds": 64.65592265600571
+    },
+    {
+      "state": "transfer",
+      "box": "observed-2",
+      "elapsed_seconds": 65.77585061300488
+    },
+    {
+      "state": "place",
+      "box": "observed-2",
+      "elapsed_seconds": 70.55953873200633
+    },
+    {
+      "state": "verify",
+      "box": "observed-2",
+      "elapsed_seconds": 76.80733702900761
+    },
+    {
+      "state": "confirmed",
+      "box": "observed-2",
+      "elapsed_seconds": 77.28014429099858
+    },
+    {
+      "state": "observe",
+      "box": null,
+      "elapsed_seconds": 77.28014736100158
+    },
+    {
+      "state": "grasp",
+      "box": "observed-3",
+      "elapsed_seconds": 77.3093914110068
+    },
+    {
+      "state": "lift",
+      "box": "observed-3",
+      "elapsed_seconds": 84.98623261600733
+    },
+    {
+      "state": "transfer",
+      "box": "observed-3",
+      "elapsed_seconds": 86.08988719400077
+    },
+    {
+      "state": "place",
+      "box": "observed-3",
+      "elapsed_seconds": 93.94292198000767
+    },
+    {
+      "state": "verify",
+      "box": "observed-3",
+      "elapsed_seconds": 106.77891571300279
+    },
+    {
+      "state": "confirmed",
+      "box": "observed-3",
+      "elapsed_seconds": 107.1558290200046
+    },
+    {
+      "state": "observe",
+      "box": null,
+      "elapsed_seconds": 107.15583084500395
+    },
+    {
+      "state": "grasp",
+      "box": "observed-4",
+      "elapsed_seconds": 107.22784120199503
+    },
+    {
+      "state": "lift",
+      "box": "observed-4",
+      "elapsed_seconds": 113.37100474799809
+    },
+    {
+      "state": "transfer",
+      "box": "observed-4",
+      "elapsed_seconds": 113.8183925570047
+    },
+    {
+      "state": "place",
+      "box": "observed-4",
+      "elapsed_seconds": 121.3086530599976
+    },
+    {
+      "state": "verify",
+      "box": "observed-4",
+      "elapsed_seconds": 128.71689554500335
+    },
+    {
+      "state": "confirmed",
+      "box": "observed-4",
+      "elapsed_seconds": 129.08694478300458
+    },
+    {
+      "state": "observe",
+      "box": null,
+      "elapsed_seconds": 129.08694784999534
+    },
+    {
+      "state": "grasp",
+      "box": "observed-5",
+      "elapsed_seconds": 129.19371579799918
+    },
+    {
+      "state": "lift",
+      "box": "observed-5",
+      "elapsed_seconds": 135.4258017999964
+    },
+    {
+      "state": "transfer",
+      "box": "observed-5",
+      "elapsed_seconds": 135.85556086500583
+    },
+    {
+      "state": "place",
+      "box": "observed-5",
+      "elapsed_seconds": 142.8418077660026
+    },
+    {
+      "state": "verify",
+      "box": "observed-5",
+      "elapsed_seconds": 150.89435654300905
+    },
+    {
+      "state": "confirmed",
+      "box": "observed-5",
+      "elapsed_seconds": 151.31303506699624
+    },
+    {
+      "state": "observe",
+      "box": null,
+      "elapsed_seconds": 151.31303691300855
+    },
+    {
+      "state": "grasp",
+      "box": "observed-6",
+      "elapsed_seconds": 151.33986698000808
+    },
+    {
+      "state": "lift",
+      "box": "observed-6",
+      "elapsed_seconds": 156.67435549100628
+    },
+    {
+      "state": "transfer",
+      "box": "observed-6",
+      "elapsed_seconds": 157.10079236200545
+    },
+    {
+      "state": "place",
+      "box": "observed-6",
+      "elapsed_seconds": 162.05884180600697
+    },
+    {
+      "state": "verify",
+      "box": "observed-6",
+      "elapsed_seconds": 168.05932239400863
+    },
+    {
+      "state": "confirmed",
+      "box": "observed-6",
+      "elapsed_seconds": 168.5103366980038
+    },
+    {
+      "state": "observe",
+      "box": null,
+      "elapsed_seconds": 168.51033911800187
+    },
+    {
+      "state": "grasp",
+      "box": "observed-7",
+      "elapsed_seconds": 168.59052978899854
+    },
+    {
+      "state": "lift",
+      "box": "observed-7",
+      "elapsed_seconds": 176.07512978400337
+    },
+    {
+      "state": "transfer",
+      "box": "observed-7",
+      "elapsed_seconds": 176.50129435499548
+    },
+    {
+      "state": "place",
+      "box": "observed-7",
+      "elapsed_seconds": 184.01383750300738
+    },
+    {
+      "state": "verify",
+      "box": "observed-7",
+      "elapsed_seconds": 192.15593186899787
+    },
+    {
+      "state": "confirmed",
+      "box": "observed-7",
+      "elapsed_seconds": 192.52928301000793
+    },
+    {
+      "state": "complete",
+      "box": null,
+      "elapsed_seconds": 192.529286236997
+    }
+  ],
+  "reserved_slots": 0,
+  "uncertain_slots": 0,
+  "visual_corrections": [
+    {
+      "box": "observed-0",
+      "stage": "direct",
+      "contact_offset_m": 0.19914818013965452
+    },
+    {
+      "box": "observed-0",
+      "stage": "released",
+      "attempt": 0,
+      "error_m": 0.006913428807756456,
+      "yaw_rad": 0.0,
+      "measured": {
+        "x": 0.6850570308590027,
+        "y": 1.0451857388579568,
+        "z": 0.860430631637573,
+        "yaw": 0.0
+      },
+      "target": {
+        "x": 0.69,
+        "y": 1.05,
+        "z": 0.86,
+        "yaw": 0.0
+      }
+    },
+    {
+      "box": "observed-1",
+      "stage": "direct",
+      "contact_offset_m": 0.1994984342672489
+    },
+    {
+      "box": "observed-1",
+      "stage": "released",
+      "attempt": 0,
+      "error_m": 0.008816042958334975,
+      "yaw_rad": 0.0,
+      "measured": {
+        "x": 1.3025486920274225,
+        "y": 1.0452885879927147,
+        "z": 0.8600567436218262,
+        "yaw": 0.0
+      },
+      "target": {
+        "x": 1.31,
+        "y": 1.05,
+        "z": 0.86,
+        "yaw": 0.0
+      }
+    },
+    {
+      "box": "observed-2",
+      "stage": "direct",
+      "contact_offset_m": 0.1998916995870027
+    },
+    {
+      "box": "observed-2",
+      "stage": "released",
+      "attempt": 0,
+      "error_m": 0.002758980149292382,
+      "yaw_rad": 0.0,
+      "measured": {
+        "x": 0.692363891003751,
+        "y": 1.0485800957955358,
+        "z": 1.1399113273620602,
+        "yaw": 0.0
+      },
+      "target": {
+        "x": 0.69,
+        "y": 1.05,
+        "z": 1.1400000000000001,
+        "yaw": 0.0
+      }
+    },
+    {
+      "box": "observed-3",
+      "stage": "direct",
+      "contact_offset_m": 0.19949468339572618
+    },
+    {
+      "box": "observed-3",
+      "stage": "released",
+      "attempt": 0,
+      "error_m": 0.005674593881914139,
+      "yaw_rad": 0.0,
+      "measured": {
+        "x": 1.3045005341164955,
+        "y": 1.0486177370397982,
+        "z": 1.1397849655151364,
+        "yaw": 0.0
+      },
+      "target": {
+        "x": 1.31,
+        "y": 1.05,
+        "z": 1.1400000000000001,
+        "yaw": 0.0
+      }
+    },
+    {
+      "box": "observed-4",
+      "stage": "direct",
+      "contact_offset_m": 0.17413826392694132
+    },
+    {
+      "box": "observed-4",
+      "stage": "released",
+      "attempt": 0,
+      "error_m": 0.005316173864813961,
+      "yaw_rad": 0.0,
+      "measured": {
+        "x": 0.7874366123492669,
+        "y": -1.0453426805054726,
+        "z": 0.8349888896942137,
+        "yaw": 0.0
+      },
+      "target": {
+        "x": 0.79,
+        "y": -1.05,
+        "z": 0.835,
+        "yaw": 0.0
+      }
+    },
+    {
+      "box": "observed-5",
+      "stage": "direct",
+      "contact_offset_m": 0.17449150242320788
+    },
+    {
+      "box": "observed-5",
+      "stage": "released",
+      "attempt": 0,
+      "error_m": 0.0008230103840688974,
+      "yaw_rad": 0.0,
+      "measured": {
+        "x": 1.2099536844345031,
+        "y": -1.0508214538286047,
+        "z": 0.8350203609466551,
+        "yaw": 0.0
+      },
+      "target": {
+        "x": 1.21,
+        "y": -1.05,
+        "z": 0.835,
+        "yaw": 0.0
+      }
+    },
+    {
+      "box": "observed-6",
+      "stage": "direct",
+      "contact_offset_m": 0.1749072139315886
+    },
+    {
+      "box": "observed-6",
+      "stage": "released",
+      "attempt": 0,
+      "error_m": 0.000595163950958815,
+      "yaw_rad": 0.0,
+      "measured": {
+        "x": 0.78940615112178,
+        "y": -1.0499617761652433,
+        "z": 1.06501012802124,
+        "yaw": 0.0
+      },
+      "target": {
+        "x": 0.79,
+        "y": -1.05,
+        "z": 1.065,
+        "yaw": 0.0
+      }
+    },
+    {
+      "box": "observed-7",
+      "stage": "direct",
+      "contact_offset_m": 0.17445810664231987
+    },
+    {
+      "box": "observed-7",
+      "stage": "released",
+      "attempt": 0,
+      "error_m": 0.0037388282342286166,
+      "yaw_rad": 0.0,
+      "measured": {
+        "x": 1.2073290425712477,
+        "y": -1.047383742059672,
+        "z": 1.0650041675567625,
+        "yaw": 0.0
+      },
+      "target": {
+        "x": 1.21,
+        "y": -1.05,
+        "z": 1.065,
+        "yaw": 0.0
+      }
+    }
+  ],
+  "box_records": [
+    {
+      "box": "observed-0",
+      "kind": "A",
+      "center_mm": 6.913428807756455,
+      "yaw_deg": 0.0,
+      "cycle_seconds": 27.93161347300338,
+      "elapsed_seconds": 27.995235142007004,
+      "dx_mm": -4.942969140997233,
+      "dy_mm": -4.814261142043197,
+      "dz_mm": 0.43063163757306455,
+      "pass": true
+    },
+    {
+      "box": "observed-1",
+      "kind": "A",
+      "center_mm": 8.816042958334975,
+      "yaw_deg": 0.0,
+      "cycle_seconds": 31.144293465011287,
+      "elapsed_seconds": 59.213567818005686,
+      "dx_mm": -7.451307972577537,
+      "dy_mm": -4.711412007285309,
+      "dz_mm": 0.056743621826171875,
+      "pass": true
+    },
+    {
+      "box": "observed-2",
+      "kind": "A",
+      "center_mm": 2.7589801492923822,
+      "yaw_deg": 0.0,
+      "cycle_seconds": 17.938158942008158,
+      "elapsed_seconds": 77.2799640900048,
+      "dx_mm": 2.3638910037510064,
+      "dy_mm": -1.4199042044642507,
+      "dz_mm": -0.08867263793987945,
+      "pass": true
+    },
+    {
+      "box": "observed-3",
+      "kind": "A",
+      "center_mm": 5.67459388191414,
+      "yaw_deg": 0.0,
+      "cycle_seconds": 29.84630298499542,
+      "elapsed_seconds": 107.15585954599374,
+      "dx_mm": -5.499465883504584,
+      "dy_mm": -1.38226296020183,
+      "dz_mm": -0.21503448486370758,
+      "pass": true
+    },
+    {
+      "box": "observed-4",
+      "kind": "B",
+      "center_mm": 5.316173864813961,
+      "yaw_deg": 0.0,
+      "cycle_seconds": 21.858868231996894,
+      "elapsed_seconds": 129.08687566799927,
+      "dx_mm": -2.563387650733162,
+      "dy_mm": 4.657319494527412,
+      "dz_mm": -0.01111030578626604,
+      "pass": true
+    },
+    {
+      "box": "observed-5",
+      "kind": "B",
+      "center_mm": 0.8230103840688975,
+      "yaw_deg": 0.0,
+      "cycle_seconds": 22.119102525990456,
+      "elapsed_seconds": 151.31299112099805,
+      "dx_mm": -0.04631556549683502,
+      "dy_mm": -0.8214538286046569,
+      "dz_mm": 0.02036094665514021,
+      "pass": true
+    },
+    {
+      "box": "observed-6",
+      "kind": "B",
+      "center_mm": 0.5951639509588149,
+      "yaw_deg": 0.0,
+      "cycle_seconds": 17.170202851993963,
+      "elapsed_seconds": 168.51023718000215,
+      "dx_mm": -0.5938488782200047,
+      "dy_mm": 0.038223834756712094,
+      "dz_mm": 0.010128021240118912,
+      "pass": true
+    },
+    {
+      "box": "observed-7",
+      "kind": "B",
+      "center_mm": 3.7388282342286168,
+      "yaw_deg": 0.0,
+      "cycle_seconds": 23.938423584986595,
+      "elapsed_seconds": 192.5291217329941,
+      "dx_mm": -2.6709574287522297,
+      "dy_mm": 2.6162579403279373,
+      "dz_mm": 0.004167556762579849,
+      "pass": true
+    }
+  ],
+  "scene_seed": 8675309,
+  "routes": [
+    {
+      "box": "observed-0",
+      "tool_height": 1.3549998283386229,
+      "bottom_height": 1.0149998283386228
+    },
+    {
+      "box": "observed-1",
+      "tool_height": 1.375430631637573,
+      "bottom_height": 1.035430631637573
+    },
+    {
+      "box": "observed-2",
+      "tool_height": 1.3753769874572752,
+      "bottom_height": 1.0353769874572751
+    },
+    {
+      "box": "observed-3",
+      "tool_height": 1.654910612106323,
+      "bottom_height": 1.314910612106323
+    },
+    {
+      "box": "observed-4",
+      "tool_height": 1.2550001144409177,
+      "bottom_height": 0.9650001144409177
+    },
+    {
+      "box": "observed-5",
+      "tool_height": 1.2749888896942136,
+      "bottom_height": 0.9849888896942136
+    },
+    {
+      "box": "observed-6",
+      "tool_height": 1.275017738342285,
+      "bottom_height": 0.9850177383422849
+    },
+    {
+      "box": "observed-7",
+      "tool_height": 1.505007743835449,
+      "bottom_height": 1.215007743835449
+    }
+  ],
+  "pick_timings": [
+    {
+      "box": "observed-0",
+      "attached_at": 83612.731604343,
+      "up_command_delay_ms": 0.06842300354037434,
+      "up_motion_delay_ms": 18.706924995058216
+    },
+    {
+      "box": "observed-1",
+      "attached_at": 83640.41332377,
+      "up_command_delay_ms": 0.026060995878651738,
+      "up_motion_delay_ms": 14.747175999218598
+    },
+    {
+      "box": "observed-2",
+      "attached_at": 83670.72707772,
+      "up_command_delay_ms": 0.043811000068672,
+      "up_motion_delay_ms": 225.0423349905759
+    },
+    {
+      "box": "observed-3",
+      "attached_at": 83691.057376546,
+      "up_command_delay_ms": 0.0329369941027835,
+      "up_motion_delay_ms": 15.152627995121293
+    },
+    {
+      "box": "observed-4",
+      "attached_at": 83719.442141323,
+      "up_command_delay_ms": 0.0701529934303835,
+      "up_motion_delay_ms": 18.961226000101306
+    },
+    {
+      "box": "observed-5",
+      "attached_at": 83741.496981265,
+      "up_command_delay_ms": 0.027198009775020182,
+      "up_motion_delay_ms": 12.444424006389454
+    },
+    {
+      "box": "observed-6",
+      "attached_at": 83762.745508148,
+      "up_command_delay_ms": 0.02649999805726111,
+      "up_motion_delay_ms": 134.10346300224774
+    },
+    {
+      "box": "observed-7",
+      "attached_at": 83782.146185344,
+      "up_command_delay_ms": 0.13155500346329063,
+      "up_motion_delay_ms": 120.25890199583955
+    }
+  ],
+  "wheels_locked": true,
+  "elapsed_seconds": 192.52945714899397,
+  "placement_mode": "coarse",
+  "regrasp_count": 0
+}
