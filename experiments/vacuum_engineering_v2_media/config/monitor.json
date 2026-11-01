@@ -1,0 +1,6 @@
+{
+  "schema_version": 1,
+  "duration_seconds": 60,
+  "command_max_age_seconds": 0.5,
+  "streams": []
+}

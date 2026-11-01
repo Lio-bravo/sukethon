@@ -1,0 +1,20 @@
+category,parameter,value,unit,status,notes
+sensor,overhead_rate,10,Hz,configured,RGB-D
+sensor,overhead_resolution,960x960,px,configured,RGB-D
+sensor,overhead_horizontal_fov,1.2,rad,configured,RGB-D
+sensor,overhead_depth_range,0.1..8.0,m,configured,clip range
+sensor,main_view_rate,15,Hz,configured,overview camera
+sensor,main_view_resolution,960x600,px,configured,full robot framing
+sensor,contact_rate,200,Hz,configured,Gazebo contact sensor
+axis_x_pid,3500/100/5000,Kp/Kd/Ki,controller,configured,force limit 1800 N
+axis_y_pid,3500/100/5000,Kp/Kd/Ki,controller,configured,force limit 1800 N
+axis_z_pid,5000/160/5000,Kp/Kd/Ki,controller,configured,force limit 2200 N
+axis_yaw_pid,120/8/1500,Kp/Kd/Ki,controller,configured,effort limit 150 N m
+placement_center_limit,10,mm,acceptance,configured,coarse plus visual verification
+placement_yaw_limit,5,deg,acceptance,configured,coarse plus visual verification
+vacuum_cup_count,4,count,geometry,configured,contact gated
+vacuum_cup_radius,0.034,m,geometry,configured
+vacuum_pressure,,Pa,unsupported,not_modeled,no pressure sensor/model
+suction_force_limit,,N,unsupported,not_modeled,no force limitation
+attachment_model,fixed_joint_after_contact,,physics,modelled,not pressure suction
+run_id,20261101_093846_coarse_8675309,,,measured,replace with benchmark run ID

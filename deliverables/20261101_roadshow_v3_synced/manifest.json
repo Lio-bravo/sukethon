@@ -1,0 +1,92 @@
+{
+  "run_id": "20261101_125811",
+  "source_commit": "d2363a4cc1e58720afb2bbdcb0b14a04b4ced446",
+  "normal_summary": {
+    "mode": "coarse",
+    "seed": 8675309,
+    "status": "complete",
+    "return_code": 0,
+    "elapsed_seconds": 195.40788754500682,
+    "placed": 8,
+    "passed": 8,
+    "max_center_mm": 8.961308370961618,
+    "max_yaw_deg": 0.0,
+    "regrasp_count": 0,
+    "failure": null,
+    "first_pass_failed": 0,
+    "video_return_code": 0,
+    "wall_seconds": 225.11
+  },
+  "video": {
+    "path": "demo_v3_raw.mp4",
+    "fps": 10.0,
+    "frame_count": 2146,
+    "decoded_frames": 2146,
+    "width": 3086,
+    "height": 960,
+    "duration_seconds": 214.6,
+    "sha256": "fd58028f13df546822d114b640d83e2a3ee855a6ee9282434a34feb333327456",
+    "speed": "1x original recorder wall clock",
+    "run_association": "E:\\Project\\sukethon\\experiments\\vacuum_engineering_v2_media\\sim\\benchmark_results\\20261101_125811\\coarse_8675309_video.log"
+  },
+  "model_sha256": "fe49e294ced9d610dad53f3919fa508d5fa12ac4eb24d283007a8d8f868275ec",
+  "world_sha256": "42df4f234dc02e310381030264d11ad8ff92d6671910cf80806dec5ad5cdac78",
+  "generator_sha256": "4d38fb5e099f3963e691a612e3d6706687a4784c6906ef14495ef1b73989e861",
+  "parameters_sha256": "87d1a9fee8fc466fb6c5630b8fd4a8ae06ea9fee92c83611738e648008dc7261",
+  "hero_crop_pixels": [
+    0,
+    45,
+    1536,
+    960
+  ],
+  "limitations": [
+    "Rigid fixed constraint attachment with vacuum capacity gating; no soft-body/full pneumatic model",
+    "Overload is +1000N software demand injection, not physical added mass",
+    "No controlled safe landing",
+    "Camera framing changed only; configuration is not hardware measured"
+  ],
+  "render_verification": {
+    "renderer": "Microsoft PowerPoint COM",
+    "slides_rendered": 5,
+    "resolution": [
+      1600,
+      900
+    ],
+    "pdf_present": true,
+    "slide_bounds": "pass"
+  },
+  "fault_tests": [
+    {
+      "fault": "leak",
+      "protection_pass": true,
+      "run_id": "20261101_130208",
+      "reason": "leak_capacity_loss",
+      "status": "stopped",
+      "same_model_sha256": "fe49e294ced9d610dad53f3919fa508d5fa12ac4eb24d283007a8d8f868275ec"
+    },
+    {
+      "fault": "overload",
+      "protection_pass": true,
+      "run_id": "20261101_130246",
+      "reason": "load_capacity_exceeded",
+      "status": "stopped",
+      "same_model_sha256": "fe49e294ced9d610dad53f3919fa508d5fa12ac4eb24d283007a8d8f868275ec"
+    }
+  ],
+  "model_unit_tests": {
+    "passed": true,
+    "cases": [
+      "no seal",
+      "acquisition",
+      "normal load",
+      "overload",
+      "leak",
+      "vent",
+      "two-cup rejection",
+      "invalid input",
+      "shear",
+      "peel"
+    ]
+  },
+  "geometry_note": "Fixed support visual envelope 6.10 x 5.80 x 5.42 m; runtime full decorative height 6.08 m. Initial SDF silk stacking gives 6.91 m before plugin update. Model-derived, not hardware measurement."
+}

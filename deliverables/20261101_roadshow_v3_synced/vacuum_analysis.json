@@ -1,0 +1,96 @@
+[
+  {
+    "run_directory": "/mnt/e/Project/sukethon/experiments/vacuum_engineering_v2_media/sim/benchmark_results/20261101_125811",
+    "samples": 10695,
+    "min_held_capacity_n": 407.160993,
+    "max_held_capacity_n": 754.356202,
+    "max_normal_demand_n": 2550.350262,
+    "max_shear_demand_n": 53.445914,
+    "max_peel_moment_nm": 11.02089,
+    "max_tank_vacuum_pa": 65000.0,
+    "detach_reasons": [
+      "commanded_vent",
+      "none"
+    ],
+    "summary": [
+      {
+        "mode": "coarse",
+        "seed": 8675309,
+        "status": "complete",
+        "return_code": 0,
+        "elapsed_seconds": 195.40788754500682,
+        "placed": 8,
+        "passed": 8,
+        "max_center_mm": 8.961308370961618,
+        "max_yaw_deg": 0.0,
+        "regrasp_count": 0,
+        "failure": null,
+        "first_pass_failed": 0,
+        "video_return_code": 0,
+        "wall_seconds": 225.11
+      }
+    ]
+  },
+  {
+    "run_directory": "/mnt/e/Project/sukethon/experiments/vacuum_engineering_v2_media/sim/benchmark_results/20261101_130208",
+    "samples": 1642,
+    "min_held_capacity_n": 135.665355,
+    "max_held_capacity_n": 752.98116,
+    "max_normal_demand_n": 2029.1868,
+    "max_shear_demand_n": 230.652321,
+    "max_peel_moment_nm": 37.500052,
+    "max_tank_vacuum_pa": 65000.0,
+    "detach_reasons": [
+      "leak_capacity_loss",
+      "none"
+    ],
+    "summary": [
+      {
+        "mode": "coarse",
+        "seed": 8675309,
+        "status": "stopped",
+        "return_code": 2,
+        "elapsed_seconds": 16.544279011999606,
+        "placed": 0,
+        "passed": 0,
+        "max_center_mm": null,
+        "max_yaw_deg": null,
+        "regrasp_count": 0,
+        "failure": "Load attachment lost during motion",
+        "first_pass_failed": 0,
+        "wall_seconds": 38.26
+      }
+    ]
+  },
+  {
+    "run_directory": "/mnt/e/Project/sukethon/experiments/vacuum_engineering_v2_media/sim/benchmark_results/20261101_130246",
+    "samples": 1254,
+    "min_held_capacity_n": 413.544898,
+    "max_held_capacity_n": 753.068689,
+    "max_normal_demand_n": 1085.793523,
+    "max_shear_demand_n": 6.867663,
+    "max_peel_moment_nm": 1.907834,
+    "max_tank_vacuum_pa": 65000.0,
+    "detach_reasons": [
+      "load_capacity_exceeded",
+      "none"
+    ],
+    "summary": [
+      {
+        "mode": "coarse",
+        "seed": 8675309,
+        "status": "stopped",
+        "return_code": 2,
+        "elapsed_seconds": 8.688464807986747,
+        "placed": 0,
+        "passed": 0,
+        "max_center_mm": null,
+        "max_yaw_deg": null,
+        "regrasp_count": 0,
+        "failure": "Load attachment lost during motion",
+        "first_pass_failed": 0,
+        "wall_seconds": 30.19
+      }
+    ]
+  }
+]

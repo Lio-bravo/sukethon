@@ -1,0 +1,162 @@
+[
+  {
+    "fault": "leak",
+    "protection_pass": true,
+    "benchmark_return_code": 1,
+    "summary": {
+      "mode": "coarse",
+      "seed": 8675309,
+      "status": "stopped",
+      "return_code": 2,
+      "elapsed_seconds": 16.544279011999606,
+      "placed": 0,
+      "passed": 0,
+      "max_center_mm": null,
+      "max_yaw_deg": null,
+      "regrasp_count": 0,
+      "failure": "Load attachment lost during motion",
+      "first_pass_failed": 0,
+      "wall_seconds": 38.26
+    },
+    "evidence_directory": "/mnt/e/Project/sukethon/experiments/vacuum_engineering_v2_media/sim/benchmark_results/20261101_130208",
+    "first_trip": {
+      "t": 33.361,
+      "stream": "gantry",
+      "kind": "measured",
+      "vacuum_enabled": true,
+      "attached": false,
+      "contact": false,
+      "tank_vacuum_pa": 60329.839705,
+      "suction_capacity_n": 0.0,
+      "normal_demand_n": 0.0,
+      "shear_demand_n": 0.0,
+      "peel_moment_nm": 0.0,
+      "shear_capacity_n": 0.0,
+      "peel_capacity_nm": 0.0,
+      "vacuum_fault": true,
+      "detach_reason": "leak_capacity_loss",
+      "cup_vacuum_pa": [
+        12021.693966,
+        12021.693966,
+        12021.693966,
+        12021.693966
+      ],
+      "cup_seal": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "names": [
+        "axis_x",
+        "axis_y",
+        "axis_z",
+        "axis_yaw"
+      ],
+      "target": [
+        0.690192,
+        1.050224,
+        1.110861,
+        2e-06
+      ],
+      "position": [
+        0.688913,
+        1.055853,
+        1.062719,
+        -0.002195
+      ],
+      "velocity": [
+        -0.04118,
+        -0.00926,
+        0.086467,
+        0.006149
+      ],
+      "effort": [
+        8.599513,
+        3.369409,
+        -26.296075,
+        0.065847
+      ]
+    }
+  },
+  {
+    "fault": "overload",
+    "protection_pass": true,
+    "benchmark_return_code": 1,
+    "summary": {
+      "mode": "coarse",
+      "seed": 8675309,
+      "status": "stopped",
+      "return_code": 2,
+      "elapsed_seconds": 8.688464807986747,
+      "placed": 0,
+      "passed": 0,
+      "max_center_mm": null,
+      "max_yaw_deg": null,
+      "regrasp_count": 0,
+      "failure": "Load attachment lost during motion",
+      "first_pass_failed": 0,
+      "wall_seconds": 30.19
+    },
+    "evidence_directory": "/mnt/e/Project/sukethon/experiments/vacuum_engineering_v2_media/sim/benchmark_results/20261101_130246",
+    "first_trip": {
+      "t": 25.326,
+      "stream": "gantry",
+      "kind": "measured",
+      "vacuum_enabled": true,
+      "attached": false,
+      "contact": true,
+      "tank_vacuum_pa": 64934.233879,
+      "suction_capacity_n": 0.0,
+      "normal_demand_n": 0.0,
+      "shear_demand_n": 0.0,
+      "peel_moment_nm": 0.0,
+      "shear_capacity_n": 0.0,
+      "peel_capacity_nm": 0.0,
+      "vacuum_fault": true,
+      "detach_reason": "load_capacity_exceeded",
+      "cup_vacuum_pa": [
+        59233.087969,
+        59233.087969,
+        59233.087969,
+        59233.087969
+      ],
+      "cup_seal": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "names": [
+        "axis_x",
+        "axis_y",
+        "axis_z",
+        "axis_yaw"
+      ],
+      "target": [
+        -1.250913,
+        -1.093869,
+        1.327396,
+        0.097919
+      ],
+      "position": [
+        -1.251,
+        -1.094079,
+        1.32684,
+        0.097926
+      ],
+      "velocity": [
+        0.002615,
+        0.018898,
+        0.402538,
+        0.000194
+      ],
+      "effort": [
+        0.178644,
+        -0.964289,
+        53.962395,
+        0.000598
+      ]
+    }
+  }
+]

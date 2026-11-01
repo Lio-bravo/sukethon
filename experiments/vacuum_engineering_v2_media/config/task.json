@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "expected_boxes": 8,
+  "layout_status": "illustrative_only_not_reachability_validated",
+  "zones": [
+    {"kind": "A", "origin": {"x": 0.0, "y": 1.0, "z": 0.75, "yaw": 0.0}, "extent_x": 1.3, "extent_y": 0.9, "gap": 0.02},
+    {"kind": "B", "origin": {"x": 0.0, "y": -1.0, "z": 0.75, "yaw": 0.0}, "extent_x": 0.9, "extent_y": 0.7, "gap": 0.02}
+  ]
+}

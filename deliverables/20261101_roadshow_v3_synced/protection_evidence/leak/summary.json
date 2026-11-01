@@ -1,0 +1,17 @@
+[
+  {
+    "mode": "coarse",
+    "seed": 8675309,
+    "status": "stopped",
+    "return_code": 2,
+    "elapsed_seconds": 16.544279011999606,
+    "placed": 0,
+    "passed": 0,
+    "max_center_mm": null,
+    "max_yaw_deg": null,
+    "regrasp_count": 0,
+    "failure": "Load attachment lost during motion",
+    "first_pass_failed": 0,
+    "wall_seconds": 38.26
+  }
+]

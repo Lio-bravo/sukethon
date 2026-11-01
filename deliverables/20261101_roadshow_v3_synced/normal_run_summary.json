@@ -1,0 +1,18 @@
+[
+  {
+    "mode": "coarse",
+    "seed": 8675309,
+    "status": "complete",
+    "return_code": 0,
+    "elapsed_seconds": 195.40788754500682,
+    "placed": 8,
+    "passed": 8,
+    "max_center_mm": 8.961308370961618,
+    "max_yaw_deg": 0.0,
+    "regrasp_count": 0,
+    "failure": null,
+    "first_pass_failed": 0,
+    "video_return_code": 0,
+    "wall_seconds": 225.11
+  }
+]
