@@ -1,0 +1,41 @@
+{
+  "model": "vacuum_engineering_v1",
+  "classification": "uncalibrated engineering equivalent, not a validated pneumatic digital twin",
+  "pressure_convention": "positive gauge vacuum: ambient absolute pressure minus chamber absolute pressure, Pa",
+  "ambient_pa": 101325,
+  "pump_vacuum_limit_pa": 65000,
+  "tank_volume_liters": 2.0,
+  "cup_chamber_liters_each": 0.025,
+  "pump_equivalent_conductance_liters_per_second": 5.0,
+  "branch_conductance_liters_per_second": 0.12,
+  "sealed_leak_conductance_liters_per_second": 0.00015,
+  "unsealed_extra_leak_conductance_liters_per_second": 0.45,
+  "vent_conductance_liters_per_second": 1.0,
+  "cup_radius_m": 0.034,
+  "cup_count": 4,
+  "effective_force_factor": 0.8,
+  "shear_friction_coefficient": 0.55,
+  "load_safety_factor": 1.3,
+  "peel_moment_capacity_formula": "sum(force_n) * 0.055 m * 0.5",
+  "trip_persistence_seconds": 0.04,
+  "ready_pressure_pa": 35000,
+  "ready_min_cups": 3,
+  "ready_min_total_force_n": 180,
+  "release_pressure_pa": 3000,
+  "max_seal_gap_m": 0.018,
+  "max_seal_tilt_rad": 0.12,
+  "seal_geometry_note": "Per-cup coverage interpolated over box top edge distance 20 to 34 mm; axial tolerance accounts for preexisting tool collision geometry. Cups remain visual geometry, tool collision supplies contact evidence.",
+  "load_measurement": "box mass * (filtered measured acceleration - gravity); lateral load and CoG moment resolved into tool frame; no joint-wrench reaction measurement",
+  "fault_tests": {
+    "leak": "extra 0.5 L/s per cup after 2 s attached",
+    "overload": "inject 1000 N extra normal demand after 2 s attached; software trip test, not physical added payload"
+  },
+  "limitations": [
+    "Fixed attachment constraint still used while capacity checks pass",
+    "No flexible cup deformation, hose CFD, pump curve calibration or carton porosity validation",
+    "Pressure dynamics are lumped linear conductance approximations",
+    "Load estimates include gravity even when the box is supported by a surface",
+    "All pneumatic constants and protection thresholds require hardware calibration",
+    "Existing parameter_report.json was copied from baseline and is historical; this file describes new vacuum behavior"
+  ]
+}

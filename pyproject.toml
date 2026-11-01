@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sukethon-tools"
+version = "0.1.0"
+description = "Simulator-independent box stacking task core and observation tools"
+requires-python = ">=3.8"
+dependencies = []
+
+[project.scripts]
+sukethon = "sukethon.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["sukethon*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

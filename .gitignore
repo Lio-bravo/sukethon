@@ -1,0 +1,50 @@
+# Python caches and local environments
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.egg-info/
+**/*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Local run output and telemetry
+runs/
+**/runs/
+**/*_telemetry.jsonl
+**/*.log
+
+# Generated Gazebo scenes and transient simulation output
+sim/stacking.world
+sim/spawn_scene.json
+sim/last_run.json
+sim/camera.png
+**/sim/stacking.world
+**/sim/spawn_scene.json
+**/sim/last_run.json
+**/sim/camera.png
+**/sim/current_view.png
+**/sim/held_view.png
+**/sim/videos/
+**/benchmark_results/
+**/run_*.json
+**/fault_check_results.json
+**/vacuum_analysis.json
+
+# Native build output
+build/
+**/build/
+cmake-build-*/
+
+# Generated media and deliverable archives
+*.mp4
+*.avi
+*.mkv
+*.zip
+*.tar
+*.tar.gz
+*.pptx
+**/preview_*.png
+**/contact_sheet*.png
+
+# Keep curated benchmark summaries and small JSON/CSV evidence unless covered above.

@@ -1,0 +1,149 @@
+{
+    "schema_version":  1,
+    "scope":  "sukethon Gazebo11 ROS Noetic simulated gantry",
+    "classification":  {
+                           "configured_or_modelled":  [
+                                                          "sensor_rates_resolution_fov_depth_range",
+                                                          "axis_pid_limits",
+                                                          "trajectory_policy",
+                                                          "contact_gated_attachment",
+                                                          "cup_geometry",
+                                                          "vacuum_limitations"
+                                                      ],
+                           "measured":  [
+                                            "joint_target_position_velocity_error_applied_force",
+                                            "attachment_contact_state",
+                                            "sensor_message_timestamps",
+                                            "placement_results",
+                                            "video_frame_counts"
+                                        ],
+                           "unsupported":  [
+                                               "pressure_feedback",
+                                               "vacuum_pressure",
+                                               "suction_force_limit",
+                                               "peel_failure",
+                                               "overload_failure"
+                                           ]
+                       },
+    "sensors":  [
+                    {
+                        "id":  "overhead_rgbd",
+                        "topics":  [
+                                       "/overhead/rgb/image_raw",
+                                       "/overhead/depth/image_raw",
+                                       "/overhead/rgb/camera_info"
+                                   ],
+                        "rate_hz":  10,
+                        "resolution_px":  [
+                                              960,
+                                              960
+                                          ],
+                        "horizontal_fov_rad":  1.2,
+                        "depth_range_m":  [
+                                              0.1,
+                                              8.0
+                                          ],
+                        "measurement_note":  "RGB-D timestamps are ROS simulation time; controller requires RGB/depth skew \u003c 0.06 s and age \u003c 0.5 s."
+                    },
+                    {
+                        "id":  "main_overview",
+                        "topic":  "/main_view/image_raw",
+                        "rate_hz":  15,
+                        "resolution_px":  [
+                                              960,
+                                              600
+                                          ],
+                        "horizontal_fov_rad":  1.05,
+                        "depth_range_m":  [
+                                              0.1,
+                                              30.0
+                                          ],
+                        "measurement_note":  "Rendered overview camera, full robot feet-to-top framing."
+                    },
+                    {
+                        "id":  "vacuum_contact",
+                        "topic":  "Gazebo contact sensor",
+                        "rate_hz":  200,
+                        "resolution":  "contact boolean/contact list",
+                        "measurement_note":  "Attachment is permitted only when enabled and contact collision names identify a box."
+                    }
+                ],
+    "axes":  [
+                 {
+                     "name":  "axis_x",
+                     "kp":  3500,
+                     "kd":  100,
+                     "ki":  5000,
+                     "force_limit_N":  1800,
+                     "joint_limit_m":  [
+                                           -2,
+                                           2
+                                       ],
+                     "velocity_limit_m_s":  1.0
+                 },
+                 {
+                     "name":  "axis_y",
+                     "kp":  3500,
+                     "kd":  100,
+                     "ki":  5000,
+                     "force_limit_N":  1800,
+                     "joint_limit_m":  [
+                                           -2,
+                                           2
+                                       ],
+                     "velocity_limit_m_s":  1.0
+                 },
+                 {
+                     "name":  "axis_z",
+                     "kp":  5000,
+                     "kd":  160,
+                     "ki":  5000,
+                     "force_limit_N":  2200,
+                     "joint_limit_m":  [
+                                           -1.5,
+                                           0.7
+                                       ],
+                     "velocity_limit_m_s":  1.0
+                 },
+                 {
+                     "name":  "axis_yaw",
+                     "kp":  120,
+                     "kd":  8,
+                     "ki":  1500,
+                     "force_limit_Nm":  150,
+                     "joint_limit_rad":  [
+                                             -6.3,
+                                             6.3
+                                         ],
+                     "velocity_limit_rad_s":  1.0
+                 }
+             ],
+    "trajectory_policy":  {
+                              "controller":  "smooth_target with bounded duration and settle",
+                              "empty_speed_m_s":  1.0,
+                              "loaded_speed_m_s":  0.9,
+                              "visual_servo_speed_m_s":  0.12,
+                              "release_speed_m_s":  0.035,
+                              "tracking_tolerance_m":  0.003,
+                              "placement_acceptance_center_mm":  10,
+                              "placement_acceptance_yaw_deg":  5,
+                              "recovery":  "fresh RGB-D regrasp, max bounded correction attempts"
+                          },
+    "vacuum":  {
+                   "cups":  4,
+                   "cup_radius_m":  0.034,
+                   "cup_length_m":  0.016,
+                   "lip_radius_m":  0.038,
+                   "lip_length_m":  0.006,
+                   "contact_logic":  "fixed joint only after contact sensor evidence",
+                   "pressure_pa":  null,
+                   "force_limit_N":  null,
+                   "physical_limitation":  "No pressure/force/peel/overload model. Applied joint effort is actuator command, not suction force."
+               },
+    "run_id":  "20261101_093846_coarse_8675309",
+    "evidence_paths":  {
+                           "raw_telemetry":  "E:\\Project\\sukethon\\sim\\benchmark_results\\20261101_093846\\coarse_8675309_telemetry.jsonl",
+                           "video":  "E:\\Project\\sukethon\\sim\\videos\\sensor_20261101_093856.mp4",
+                           "summary":  "E:\\Project\\sukethon\\sim\\benchmark_results\\20261101_093846\\summary.json"
+                       }
+}
